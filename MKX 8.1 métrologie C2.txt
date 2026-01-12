@@ -1,0 +1,1896 @@
+1
+
+Métrologie – partie 2/3
+MKX 2A – S7 – L. CAMBON – 01/2026
+
+2
+
+SOMMAIRE
+
+1.
+
+TYPES DE MÉTROLOGIE
+
+2.
+
+LA METROLOGIE INDUSTRIELLE
+
+3.
+
+LE TISSU NORMATIF
+
+4.
+
+LE PROCESSUS MÉTROLOGIQUE
+
+5.
+
+ERREURS ET INCERTITUDES DE
+MESURE
+
+6.
+
+RESULTAT DE MESURE
+
+3
+
+SOMMAIRE
+
+1.
+
+TYPES DE MÉTROLOGIE
+
+2.
+
+LA METROLOGIE INDUSTRIELLE
+
+3.
+
+LE TISSU NORMATIF
+
+4.
+
+LE PROCESSUS MÉTROLOGIQUE
+
+5.
+
+ERREURS ET INCERTITUDES DE
+MESURE
+
+6.
+
+RESULTAT DE MESURE
+
+3 aspects de la métrologie
+
+4
+
+
+
+La métrologie fondamentale : C’est la science de la mesure. Elle définit les principes et les
+méthodes permettant de garantir la confiance des mesures. Pour cela, elle développe et veille
+à maintenir des étalons nationaux de référence, reconnus à l’international et qui permettent à
+l’industrie de raccorder leurs instruments de mesure au Système International d’unités (SI).
+
+
+
+La métrologie légale : C’est un ensemble d’exigences et de procédures imposées par l’état
+pour garantir la qualité et la fiabilité de certains instruments de mesure ou d’opérations de
+mesurage touchant l’intérêt public : la sécurité des personnes, la protection des
+consommateurs, de l’environnement et de la santé, la loyauté des transactions commerciales
+ou encore la bonne application des lois et des règlements.
+
+
+
+La métrologie industrielle : Pour les industriels, assurer la traçabilité et la fiabilité de leurs mesures
+est essentiel pour maîtriser leurs procédés de fabrication et veiller à la qualité de leurs produits.
+La métrologie peut donc apporter une contribution majeure à la compétitivité des entreprises.
+
+5
+
+Application
+
+
+Dans ces domaines, indiquez dans quel cadre interviennent les métrologies fondamentales,
+légales et industrielles
+Compétitions
+sportives
+
+Hébergement
+
+Restauration
+
+Sécurité
+
+Médiatisation
+
+Médical
+
+6
+
+SOMMAIRE
+
+1.
+
+ASPECTS DE LA MÉTROLOGIE
+
+2.
+
+LA METROLOGIE INDUSTRIELLE
+
+3.
+
+LE TISSU NORMATIF
+
+4.
+
+LE PROCESSUS MÉTROLOGIQUE
+
+5.
+
+ERREURS ET INCERTITUDES DE
+MESURE
+
+6.
+
+RESULTAT DE MESURE
+
+La métrologie industrielle
+
+
+
+
+7
+
+La métrologie industrielle consiste à organiser l’ensemble des ressources métrologiques de
+l’entreprise dans le but de :
+
+
+maîtriser les caractéristiques de ses instruments (étalonnage),
+
+
+
+maîtriser les performances des opérateurs (formation),
+
+
+
+maîtriser les spécificités de ses produits (métier),
+
+
+
+maîtriser les exigences de ses clients (relation commerciale),
+
+
+
+maîtriser les exigences de son (ses) référentiel(s) qualité (excellence).
+
+La maîtrise de la mesure dans le cadre de la métrologie industrielle permet de :
+
+
+maîtriser la conformité des produits,
+
+
+
+maîtriser les coûts,
+
+
+
+garantir une meilleure rentabilité,
+
+
+
+augmenter la satisfaction du client.
+
+8
+
+La métrologie industrielle
+
+
+A l’inverse de la Métrologie Légale, la métrologie industrielle doit garantir, non pas l’honnêteté
+et l’égalité de l’échange, mais la fonctionnalité du produit dans un contexte économique.
+Pour cela, elle dispose d’un certain nombre de normes qui l’aide dans sa démarche.
+
+
+
+Les normes constituent des référentiels auxquels toutes les parties prenantes peuvent se référer
+➔ langage commun
+
+
+
+La métrologie est un moyen de communication entre le fournisseur et l’utilisateur des résultats
+de mesure.
+
+Je t’ai livré
+300 g de
+poisson
+
+Je n’ai reçu que
+290 g !
+
+9
+
+SOMMAIRE
+
+1.
+
+ASPECTS DE LA MÉTROLOGIE
+
+2.
+
+LA METROLOGIE INDUSTRIELLE
+
+3.
+
+LE TISSU NORMATIF
+
+4.
+
+LE PROCESSUS MÉTROLOGIQUE
+
+5.
+
+ERREURS ET INCERTITUDES DE
+MESURE
+
+6.
+
+RESULTAT DE MESURE
+
+Le tissu normatif
+
+
+
+
+Les normes fondamentales
+
+
+NF EN ISO 80000
+
+Grandeurs et unités
+
+
+
+NF ISO/IEC GUIDE 99
+
+Vocabulaire International de Métrologie (VIM)
+
+Les normes relatives à la métrologie
+
+
+FD X07-010,etc
+
+Métrologie dans l’entreprise
+
+
+
+NF EN ISO/IEC 17025
+
+Accréditation des laboratoires de métrologie
+
+
+
+NF EN ISO 10012
+
+Systèmes de management de la mesure
+
+
+
+NF EN ISO 14253
+
+Spécifications géométriques des produits
+
+10
+
+https://cobaz.afnor.org/
+
+Le tissu normatif
+
+
+
+
+Les normes relatives aux méthodes statistiques
+
+
+NF ISO 5725
+
+Exactitude (justesse et fidélité) des résultats et méthodes de mesure
+
+
+
+JCGM 100:2008
+
+Guide pour l’expression de l’incertitude de mesure (GUM)
+
+Les normes relatives aux types d’équipements à mesurer
+
+
+
+
+NF EN ISO 13920
+
+Tolérances générales relatives aux constructions soudées
+
+Les normes relatives à la qualité
+
+
+NF EN ISO 9000
+
+Système de management de la qualité – principes généraux
+
+
+
+NF EN ISO 9001
+
+Système de management de la qualité – exigences
+
+11
+
+La norme ISO 10012
+
+
+Système de Management de la Mesure
+
+Exigences pour les processus et les équipements de mesure
+
+
+Définition d’un système de
+management de la mesure :
+« ensemble d'éléments corrélés
+ou interactifs nécessaires pour
+effectuer une confirmation
+métrologique et un contrôle
+continu des processus de
+mesure »
+
+
+
+Approche dite « orientée
+processus »
+
+
+
+Exigences et conseils
+
+12
+
+13
+
+La norme ISO 10012
+
+
+Un système efficace doit permettre de garantir que les équipements de mesure et les
+processus de mesure sont appropriés à l’utilisation qui leur est assignée.
+
+
+
+L’objectif du SMM est de gérer le risque de voir les équipements de mesure générer des
+résultats incorrects ayant une incidence sur la qualité des produits.
+
+
+
+
+
+Les processus de mesure seront maîtrisés
+
+
+
+Les équipements de mesure seront confirmés
+
+On cherche à bien mesurer pour bien décider.
+
+De
+meilleures
+mesures
+
+De
+meilleures
+informations
+
+De
+meilleures
+décisions
+
+De
+meilleurs
+résultats
+
+14
+
+SOMMAIRE
+
+1.
+
+ASPECTS DE LA MÉTROLOGIE
+
+2.
+
+LA METROLOGIE INDUSTRIELLE
+
+3.
+
+LE TISSU NORMATIF
+
+4.
+
+LE PROCESSUS MÉTROLOGIQUE
+
+5.
+
+ERREURS ET INCERTITUDES DE
+MESURE
+
+6.
+
+RESULTAT DE MESURE
+
+Le processus métrologique
+
+15
+
+
+
+Un processus métier est un ensemble de tâches liées les unes aux autres qui prennent fin à la
+livraison d'un service ou d'un produit à un client.
+
+
+
+Le processus métier a également été défini comme un ensemble d'activités et de tâches qui,
+une fois effectuées, rempliront l'un des objectifs de l'entreprise.
+
+
+
+Plusieurs règles sont associées à un processus :
+
+
+
+
+
+Il a un début et une fin (inscrit dans le temps)
+
+
+
+Il est décomposé en étapes claires et précises (audit)
+
+
+
+Il comporte des indicateurs
+
+
+
+Il appelle des compétences (ressources)
+
+Il existe des « modeleurs » de processus tels que bonitasoft ou Bizagi.
+
+Le processus métrologique
+
+16
+
+
+
+Le processus de métrologie n’est pas différent des processus métiers.
+
+
+
+Il est transverse à toutes les activités.
+
+
+
+Le processus de métrologie est donc une succession d’étapes qui conduit à un décision
+métrologique grâce à une résultat de mesure.
+
+
+
+Il faut différencier le processus de mesure du processus de contrôle.
+
+
+
+La mesure est un acte pour observer une grandeur, qui réunit les éléments décrits
+précédemment (traçabilité, incertitude…).
+
+
+
+Le contrôle est une notion d’observation relative. L’acte (processus) produit un résultat de
+conformité. Il existe des processus de contrôle par la mesure.
+
+Le processus métrologique
+
+
+17
+
+Pour décrire un processus de mesure, la méthode des 5M est souvent utilisée. C’est une
+représentation du processus qui intègre ou prend en compte :
+1.
+
+La main d’œuvre (ressource opérationnelle)
+
+2.
+
+Une méthode de mesure
+
+3.
+
+Des instruments de mesure (moyens)
+
+4.
+
+Un environnement de mesure caractérisé par les facteurs d’influence (milieu)
+
+5.
+
+Un produit ou un phénomène dont on veut mesurer une propriété (matière)
+
+
+
+On suppose qu’il existe un « trajet » entre le mesurande et le résultat de mesure. Sur ce trajet les
+5 éléments sont distribués (rencontrés).
+
+
+
+L’objectif est de décrire le processus de métrologie…
+
+18
+
+Le processus métrologique
+
+besoins et
+exigences
+
+Conformité ?
+
+Application
+
+
+Indiquez quels paramètres peuvent influer sur les résultats du mesurage
+
+19
+
+➢ Les moyens
+
+20
+
+
+
+Le mesurage est assuré avec des instruments de mesure ou systèmes de mesure.
+
+
+
+Lors de la rédaction du processus de métrologie, l’instrument est choisi à partir des exigences /
+besoins :
+
+
+L’étendue de mesure : « valeur absolue de la différence entre les valeurs extrêmes d'un intervalle
+nominal des indications »
+
+
+Pour un intervalle nominal des indications de –10 V à +10 V, l'étendue de mesure est 20 V.
+
+
+
+le terme « intervalle de mesure » est parfois improprement employé
+
+
+
+La résolution : « plus petite variation de la grandeur mesurée qui produit une variation perceptible de
+l'indication correspondante »
+
+
+
+L’incertitude instrumentale : « composante de l’incertitude de mesure qui provient de l'instrument de
+mesure ou du système de mesure utilisé » ou son erreur maximale tolérée,
+
+
+
+La classe d'exactitude : « classe d’instruments de mesure ou de systèmes de mesure qui satisfont à
+certaines exigences métrologiques destinées à maintenir les erreurs de mesure ou les incertitudes
+instrumentales entre des limites spécifiées dans des conditions de fonctionnement spécifiées »
+
+
+
+Les variations de ses « performances » en fonction des grandeurs d’influence (température,
+hygrométrie…).
+Toutes les définitions sont issues du Vocabulaire International de Métrologie (VIM) – NF ISO/CEI GUIDE 99 : 08/2011
+
+➢ Les moyens
+
+21
+
+22
+
+➢ Le milieu
+
+
+Le processus de mesure est réalisé dans un milieu. Le vide est un milieu !
+
+
+
+Dans le cas le plus courant, un milieu est caractérisé par : la température, l’humidité, la
+pression atmosphérique… mais aussi le niveau de bruit, de luminosité, la teneur d’un élément
+chimique…
+
+
+
+La correction de température dans le cas de mesures dimensionnelles s’impose lorsque la
+mesure est réalisée dans des conditions qui s’écartent de la température de référence : 20°C.
+➔
+
+
+
+loi de dilatation
+
+Il existe des grandeurs insensibles au milieu :
+
+
+l’activité d’un radionucléide (s-1) est
+pression… du milieu.
+
+indépendante de la température, de l’hygrométrie, de la
+
+
+
+La vitesse de la lumière est nvariante, quelque soit le milieu.
+
+➢ Le milieu (température, dilatation)
+
+
+
+Les métrologues décrivent le milieu dans lequel l’instrument a été étalonné et proposent des
+corrections si nécessaires, par exemple, pour la température, sous forme d’une loi de dilatation :
+LT = L20.[1 + α (T - 20)]
+
+
+
+23
+
+avec
+
+T : température ; alpha : coefficient de dilatation
+
+La dilatation d’une pièce métallique est considérée comme linéaire entre 15 °C et 30 °C. Pour
+une température de 30 °C, la variation imposée par la température est :
+d = L30 - L20.[1 + a.(T - 20)]
+
+
+
+Le métrologue pourra si nécessaire établir la loi qui décrit la variation entre la température
+relevée lors de la mesure et la dimension en dérivant l’évolution de la grandeur en fonction de
+la température.
+
+➢ Le milieu
+
+24
+
+➢ La méthode
+
+25
+
+
+
+La méthode est systématiquement présentée dans une procédure puis déclinée en modes
+opératoires. Il existe une catégorisation des méthodes.
+
+
+
+Le premier classement dépend de la « manière » de réaliser la mesure :
+
+
+La méthode de mesure directe :
+
+
+
+La méthode de mesure indirecte :
+
+➢ La matière
+
+
+
+L’état de l’objet mesuré a une grande importance dans le
+processus métrologique.
+
+
+
+Le positionnement de l’objet est essentiel. Il existe des cas où
+le positionnement est imposé, par exemple dans le cas d’objet
+très massif (une voiture, une aile d’avion…) ; le positionnement
+est un sujet à part entière.
+
+
+
+Il n’est pas courant de relever la température de l’objet à
+mesurer, c’est pourtant essentiel.
+
+
+
+L’identification des prélèvements, la date, le lieu de
+prélèvement… est essentielle.
+
+26
+
+➢ La main d’œuvre
+
+27
+
+
+
+La main d’œuvre a des compétences pour la mise en œuvre de moyens suivant une méthode
+dans un milieu pour répondre à une exigence de métrologie.
+
+
+
+Les métrologues sont présents dans l’ensemble des étapes du processus, de la définition à
+l’exécution en passant par le maintien du processus (étalonnage, vérification, ajustage).
+
+Le processus métrologique
+
+28
+
+
+
+La mesure est réalisée dans un contexte et des conditions.
+
+
+
+La grandeur que l’on veut mesurer est le mesurande. Ce mesurande dépend de l’environnement direct,
+de la méthode, de la matière, de la main d’œuvre et des moyens.
+
+Le coût de la métrologie en entreprise
+
+29
+
+
+
+Métrologie interne ou externe ?
+
+
+
+On peut estimer les coûts de la métrologie en identifiant les différents postes nécessaires, en
+investissement ou en fonctionnement
+
+
+
+Réaliser un diagramme Ishikawa :
+
+Le coût de la métrologie en entreprise
+
+30
+
+31
+
+SOMMAIRE
+
+1.
+
+ASPECTS DE LA MÉTROLOGIE
+
+2.
+
+LA METROLOGIE INDUSTRIELLE
+
+3.
+
+LE TISSU NORMATIF
+
+4.
+
+LE PROCESSUS MÉTROLOGIQUE
+
+5.
+
+ERREURS ET INCERTITUDES DE
+MESURE
+
+6.
+
+RESULTAT DE MESURE
+
+La mesure
+
+32
+
+
+
+Mesurage : ensemble d'opérations ayant pour but de déterminer une valeur d'une grandeur.
+
+
+
+Mesurande : grandeur particulière soumise à mesurage (ce que l’on veut mesurer).
+
+
+
+« Valeur vraie » d’un mesurande : mesure que l’on obtiendrait par un mesurage parfait. On ne
+la connaît pas et on parle également de « valeur théorique ».
+
+
+
+Les deux critères fondamentaux de la Mesure sont :
+
+
+
+
+
+L’exactitude des instruments de mesure utilisés que l’on détermine en les raccordant aux étalons
+nationaux (opération d’étalonnage).
+
+
+
+La confiance que l’on peut accorder au résultat de mesure qui se quantifie par l’incertitude de
+mesure.
+
+Bien mesurer, c’est avoir confiance dans la mesure mais aussi mesurer en toute confiance.
+
+33
+
+La notion d’erreur
+
+
+
+Si :
+et
+
+Erreur ei
+
+yi est le résultat d’un mesurage
+
+Valeur vraie de la
+grandeur y0
+
+y0 la « valeur vraie » du mesurande,
+
+l’erreur sur le résultat yi est le nombre :
+
+ei = yi − y0
+
+Valeur mesurée yi
+
+
+
+Ce concept d’erreur est idéal et les erreurs ne peuvent malheureusement pas être connues
+exactement.
+
+
+
+Dans la problématique qui nous intéresse on va chercher à estimer une valeur y0 du
+mesurande, et à quantifier l’erreur commise sur cette estimation.
+
+
+
+Ainsi, la démarche visée est de fournir, autour du résultat d'un mesurage, un intervalle dont on
+puisse s'attendre à ce qu'il comprenne une fraction élevée des valeurs qui pourraient
+raisonnablement être attribuées au mesurande.
+
+La notion d’erreur
+
+
+34
+
+Si l’on répète le mesurage, on obtient :
+
+
+une série de valeurs y1, y2,… yn que l’on considère comme les valeurs prises par une variable aléatoire Y
+
+
+
+une série de valeurs e1, e2,… en qui sont les erreurs définies sur chacune des observations
+
+➔ ces valeurs sont considérées comme celles prises par une variable aléatoire E :
+
+
+L’erreur de mesure est une variable aléatoire
+
+
+
+On peut ainsi modéliser le mesurage par : Y = y0 + E
+
+
+
+L’hypothèse fondamentale du traitement probabiliste de l’erreur est que la variable E obéit à
+une loi de probabilité « bien définie ».
+
+
+
+L’objet du calcul d’incertitude sera de déterminer :
+
+
+les paramètres de la loi de probabilité de E
+
+
+
+un intervalle dont on puisse s'attendre à ce qu'il comprenne une fraction élevée des valeurs qui
+pourraient raisonnablement être attribuées au mesurande.
+
+L’incertitude de mesure
+
+
+
+35
+
+Incertitude de mesure : « paramètre non négatif qui caractérise la dispersion des valeurs
+attribuées à un mesurande, à partir des informations utilisées. »
+
+
+Ce paramètre peut être un écart-type ou un multiple de celui-ci
+Valeur mesurée – incertitude
+
+Valeur mesurée + incertitude
+
+Valeur mesurée Y
+Ensemble des valeurs attribuables au mesurande
+
+
+
+L’écart type de Y est appelé incertitude-type sur le résultat de mesurage.
+
+
+
+On note généralement u(y) cette incertitude-type sur Y.
+Toutes les définitions sont issues du Vocabulaire International de Métrologie (VIM) – NF ISO/CEI GUIDE 99 : 08/2011
+
+L’incertitude de mesure
+
+
+
+36
+
+Combien de chiffres significatifs pour exprimer la valeur numérique du résultat ?
+L = 125,36 mm ± 0,05 mm
+Incertitude au centième ➔ résultat au centième
+
+
+
+L’incertitude requise pour une mesure donnée est d’abord celle qui répond au besoin !
+
+Fiabilité des résultats
+
+37
+
+
+
+Les conséquences d’un résultat de mesure erroné peuvent être coûteux, accidentogène
+et/ou préjudiciable pour l’entreprise.
+
+
+
+Un processus métrologique doit être validé et présenter des indicateurs de performance
+explicites :
+
+
+
+
+
+Justesse
+
+
+
+Fidélité
+
+Un appareil exact est à la fois fidèle et juste.
+
+38
+
+Justesse
+
+
+Justesse de mesure : « étroitesse de l'accord entre la moyenne d'un nombre infini de valeurs
+mesurées répétées et une valeur de référence ».
+
+
+
+La justesse s’exprime sous forme d’un biais ou erreur systématique.
+
+➔ réduire les erreurs systématiques
+
+
+La justesse représente l’aptitude de l’instrument à fournir la vraie valeur de la grandeur physique
+Toutes les définitions sont issues du Vocabulaire International de Métrologie (VIM) – NF ISO/CEI GUIDE 99 : 08/2011
+
+39
+
+Fidélité
+
+
+
+Fidélité : « étroitesse de l'accord entre les indications ou les valeurs mesurées obtenues par des
+mesurages répétés du même objet ou d'objets similaires dans des conditions spécifiées ».
+
+
+
+La fidélité est exprimée sous forme numérique par des caractéristiques telles que l’écart-type
+ou la variance.
+
+
+
+Les valeurs du résultat de mesure sont distribuées autour de la valeur moyenne :
+
+
+
+La variance est la moyenne des carrés des écarts à cette moyenne :
+
+
+
+L’écart-type est la racine carrée de la variance : σ=
+
+
+
+Plus l’écart-type est faible, plus l’instrument est fidèle.
+
+
+
+𝑠²(𝑋)
+
+Attention faux ami : en anglais, fidélité se dit precision
+
+Toutes les définitions sont issues du Vocabulaire International de Métrologie (VIM) – NF ISO/CEI GUIDE 99 : 08/2011
+
+Répétabilité / Reproductibilité
+
+
+
+
+
+La répétabilité est la fidélité dans des conditions stables :
+
+
+même opérateur
+
+
+
+même mode opératoire
+
+
+
+même lieu
+
+
+
+même moyens
+
+
+
+même observateur
+
+
+
+temps court…
+
+La reproductibilité est la fidélité dans des conditions différentes.
+
+40
+
+41
+
+Exactitude
+
+
+
+Les performances d’un processus de métrologie s’évaluent selon deux paramètres :
+
+
+le premier est la capacité à comparer les résultats à une valeur vraie ➔ justesse
+
+
+
+le second, pour une grandeur donnée et des conditions de mesure stables, sert à évaluer la dispersion des
+résultats ➔ fidélité
+
+Résultat de mesure = valeur vraie + erreur de mesure
+Erreur de mesure = Erreur systématique + Erreur aléatoire
+Justesse
+
+Fidélité
+Reproductibilité
+
+
+
+L’exactitude est l’aptitude d’un instrument de mesure à donner des indications proches de la valeur
+vraie d’une grandeur mesurée. Il est la traduction de : juste et fidèle.
+
+
+
+Le terme « précision » ne doit pas être utilisé pour « exactitude »
+
+Exactitude
+
+42
+
+
+
+La spécification exigée pour le mesurande est dictée par l'exactitude de mesure exigée pour
+le mesurage. Le mesurande doit être défini de façon suffisamment complète en rapport avec
+l'exactitude exigée.
+
+
+
+Exemple :
+
+Si l'on doit déterminer la longueur nominale d'une barre d'acier de longueur un mètre au
+micromètre près, sa spécification doit comprendre la température et la pression auxquelles la
+longueur est définie.
+Le mesurande peut alors être spécifié comme, par exemple, la longueur de la barre à 25,00 °C et
+101 325 Pa (plus tout autre paramètre de définition jugé nécessaire, tel que la manière de
+supporter la barre).
+
+Cependant, si l'on ne doit déterminer la longueur de la barre qu'au millimètre près, sa
+spécification ne nécessitera pas la définition d'une température, ou d'une pression, ou de tout
+autre paramètre.
+
+43
+
+Justesse / fidélité
+
+
+
+Déterminer la justesse et/ou la fidélité des impacts sur les cibles ci-dessous :
+
+Juste mais pas fidèle
+
+Fidèle mais pas juste
+
+Ni juste ni fidèle
+
+Juste et fidèle
+
+Les types d’erreurs
+
+
+
+
+L’erreur systématique peut être considérée comme une erreur « constante » qui affecte
+chacune des observations.
+
+
+En général, et à moins que l’instrument ne puisse être considéré d’une précision parfaite, l’erreur
+systématique et ses causes ne peuvent être connues qu’en partie.
+
+
+
+L’erreur systématique d’un résultat de mesure ne peut être réduite en augmentant le nombre
+d’observations, mais par l’application d’une correction.
+
+L’erreur aléatoire est liée aux conditions opératoires.
+
+
+
+
+44
+
+Bien qu’il ne soit pas possible de compenser l’erreur aléatoire d’un résultat de mesure, elle peut être
+réduite en augmentant le nombre d’observations.
+
+Les erreurs grossières sont dues à des conditions anormales ou à des fautes techniques et se
+manifestent généralement par des valeurs mesurées considérablement différentes de toutes
+les autres erreurs.
+
+
+Après chaque série de mesures, il faut détecter les erreurs grossières, élucider leur cause pour qu’elles
+ne se reproduisent plus et les éliminer car elles peuvent influencer considérablement la valeur
+moyenne et l'écart-type d'une série de mesures.
+
+Les types d’erreurs
+
+45
+
+46
+
+Justesse / fidélité
+
+
+Déterminer le type d’erreur correspondant aux impacts sur les cibles ci-dessous :
+
+Juste mais pas fidèle
+
+Erreurs aléatoires
+
+Fidèle mais pas juste
+
+Erreurs systématiques
+
+Fidèle mais pas juste
+
+Erreur grossière
+
+Ni juste ni fidèle
+
+Erreurs aléatoires
+et systématiques
+
+Juste et fidèle
+
+Erreurs faibles
+
+Ce dessin n’est cependant qu’une vue théorique trompeuse, car en général, on ne connaît pas la
+cible. La dispersion nous renseigne sur les erreurs aléatoires, mais la présence d’erreur systématique
+est souvent difficile à déceler.
+
+47
+
+Erreurs aléatoires
+
+
+
+Les erreurs aléatoires peuvent être classées en deux catégories :
+
+
+Type A : les erreurs aléatoires qui peuvent être évaluées par l’analyse statistique de séries
+d’observations (c’est-à-dire à partir d’observations répétées)
+
+
+
+Type B : les erreurs évaluées par d’autres moyens, notamment par des connaissances à priori
+
+Type A
+Type B
+
+Erreurs aléatoires de type A
+
+48
+
+
+
+En général, dues à des fluctuations des conditions environnementales au cours de la mesure
+(dont opérateur et instrument),
+
+
+
+Intensité et signe inconnus
+
+
+
+Fluctuent de manière imprévisible par rapport à une valeur moyenne
+
+
+
+L’incertitude de la moyenne diminue avec le nombre de mesures
+
+
+
+Ont souvent une distribution normale
+
+
+
+Qualifiées par leur écart-type
+
+
+
+Exemples : jeux d'articulations de palpeurs, erreurs de lecture des graduations d'un
+microscope, erreurs de positionnement d'un palpeur, fluctuation de la température ambiante
+ou de la température de la pièce à mesurer…
+
+Evaluation de l’incertitude-type de type A
+
+49
+
+
+
+Evaluation à l'aide de méthodes statistiques, fondée sur des distributions de fréquences.
+
+
+
+A partir d’une série de n mesures d’une grandeur X, dans les mêmes conditions de mesure :
+
+
+L’estimation de X sera la moyenne :
+
+
+
+L’estimation de la dispersion des valeurs de X autour de sa moyenne sera l’écart-type de la mesure (ou
+
+écart-type de répétabilité) :
+
+𝑠(𝑋) =
+
+𝑠²(𝑋)
+𝑋ത
+
+
+
+L’estimation de l’incertitude de la moyenne sera l’écart-type de la moyenne :
+
+𝑠 𝑋ത =
+
+𝑠(𝑋)
+𝑛
+
+X
+
+Evaluation de l’incertitude-type de type A
+
+
+
+
+
+50
+
+Si une grandeur X est estimée à partir de n observations répétées indépendantes x1, x2, … , xn :
+
+
+estimation de X :
+
+
+
+incertitude-type u(x) :
+
+𝑠 𝑋ത =
+
+𝑠(𝑋)
+𝑛
+
+à partir de :
+
+Si cette même grandeur X est estimée à partir de p observations répétées indépendantes x1, x2, …, xp
+et si s(X) est l’écart-type expérimental d’une mesure (obtenu auparavant à partir de n valeurs) alors :
+𝑥1 + …𝑥𝑝
+
+
+
+estimation de X :
+
+𝑥ҧ =
+
+
+
+incertitude-type u(x) :
+
+𝑠 𝑋ത =
+
+𝑝
+𝑆(𝑋)
+𝑝
+
+à partir de :
+
+X = grandeur
+x = estimation de la grandeur
+
+51
+
+Erreurs aléatoires
+
+
+
+Les erreurs aléatoires peuvent être classées en deux catégories :
+
+
+Type A : les erreurs aléatoires qui peuvent être évaluées par l’analyse statistique de séries
+d’observations (c’est-à-dire à partir d’observations répétées)
+
+
+
+Type B : les erreurs évaluées par d’autres moyens, notamment par des connaissances à priori
+
+Type A
+Type B
+
+Erreurs aléatoires de type B
+
+52
+
+
+
+Amplitude et signe inconnus au moment d’une mesure, mais intensité maximale connue
+(tolérance).
+
+
+
+Ne peuvent pas être diminuées en augmentant le nombre de mesures effectuées.
+
+
+
+Exemples :
+
+
+
+
+
+résolution d’un affichage numérique.
+
+
+
+tolérance du pas de vis micrométrique d'un palmer de 0,3 μm.
+
+
+
+jauge qui possède une grandeur nominale de 30,000 mm et une indication de tolérance de ±1μm.
+
+Peuvent être estimées de plusieurs manières :
+
+
+A partir des caractéristiques (datasheet) de l'instrument.
+
+
+
+Comparaison avec un instrument de mesure au moins dix fois plus précis.
+
+
+
+Calcul des tolérances à partir des tolérances mécaniques et des relations géométriques de l'instrument
+de mesure.
+
+Evaluation de l’incertitude-type de type B
+
+
+
+
+
+
+53
+
+S'effectue par un jugement scientifique fondé sur toutes les informations disponibles qui
+peuvent comprendre :
+
+
+des résultats de mesures antérieures
+
+
+
+l'expérience ou la connaissance générale du comportement des matériaux et des instruments utilisés
+
+
+
+de facteurs d’influence (température, pression,.....)
+
+
+
+des spécifications du fabricant
+
+
+
+des données fournies par des certificats d'étalonnage et d'autres documents
+
+
+
+l'incertitude assignée à des valeurs de référence provenant d'ouvrages et manuels
+
+Deux paramètres à considérer :
+
+
+la forme de la distribution de probabilité de la grandeur considérée (normale, uniforme….)
+
+
+
+l'étendue de variation possible de la grandeur considérée
+
+Evaluation à l'aide de méthodes non-statistiques, fondée sur des lois de probabilités supposées
+à priori.
+
+Evaluation de l’incertitude-type de type B
+Loi normale
+(gaussienne)
+
+Loi uniforme
+(rectangle)
+
+•
+
+Étendue :
+
+2a (99.73% à 3σ)
+
+•
+
+Étendue :
+
+2a
+
+•
+
+Variance :
+
+a2 / 9
+
+•
+
+Variance :
+
+a2 / 3
+
+•
+
+Écart-type :
+
+a/3
+
+•
+
+Écart-type :
+
+a/ 3
+
+-a
+
+54
+
++a
+
+On suppose que les valeurs possibles de Xi
+sont distribuées approximativement selon une
+loi normale.
+
+-a
+
++a
+
+On suppose que les valeurs possibles de Xi se
+situent d'une manière également probable en
+tout point de l'intervalle.
+
+Loi normale
+
+
+
+55
+
+Si une variable X suit une loi normale de moyenne m et d’écart-type σ alors on a alors :
+
+
+Probabilité (–σ ≤ X – m ≤ σ ) ≈ 68 %
+
+
+
+Probabilité (–2σ ≤ X – m ≤ 2σ ) ≈ 95 %
+
+
+
+Probabilité (–3σ ≤ X – m ≤ 3σ ) ≈ 99,7 %
+
+
+
+Cette dernière expression indique que quasiment la totalité des données sont situées entre
+–3σ et 3σ
+
+
+
+On dit que l’étendue des valeurs représente 6σ, ce qui permet de donner une estimation
+grossière de l’écart-type en divisant cette étendue par 6.
+
+56
+
+Incertitude-type composée
+
+
+Dans le processus de mesurage, plusieurs grandeurs indépendantes peuvent intervenir :
+grandeurs mesurées, corrections d’erreurs systématiques, constantes physiques, grandeurs
+d’influence estimées…
+
+
+
+Chacune de ces grandeurs a une incertitude-type.
+
+
+
+Si Y = f(X1, X2, …Xn)
+
+avec Xi des grandeurs indépendantes, alors :
+
+L’incertitude-type composée sur y est :
+
+On peut aussi écrire :
+
+=
+= coefficients de sensibilité
+
+Avec µ la valeur de référence de chacune des variables
+
+
+C’est la loi de propagation des incertitudes
+
+X/Y = grandeurs
+x/y = estimation des grandeurs
+
+57
+
+Incertitude élargie
+
+L'incertitude élargie s'obtient en multipliant l'incertitude composée par un facteur
+d'élargissement k
+U = kuc (y )
+ La valeur du facteur d'élargissement est choisie sur la base du niveau de confiance requis pour
+l'intervalle y - U, y + U.
+
+
+
+
+En général on prend k = 2, ce qui correspond à un niveau de confiance de 95 %.
+
+
+
+L’incertitude élargie est habituellement donnée avec un (au maximum deux) chiffres
+significatifs.
+
+
+
+Pour limiter le cumul d’erreurs sur les arrondis, l’arrondissage est effectué sur le résultat final.
+Pour les calculs intermédiaires on gardera donc des chiffres qui peuvent être non significatifs.
+
+k=1
+
+k=2
+
+k=3
+
+58
+
+SOMMAIRE
+
+1.
+
+ASPECTS DE LA MÉTROLOGIE
+
+2.
+
+LA METROLOGIE INDUSTRIELLE
+
+3.
+
+LE TISSU NORMATIF
+
+4.
+
+LE PROCESSUS MÉTROLOGIQUE
+
+5.
+
+ERREURS ET INCERTITUDES DE
+MESURE
+
+6.
+
+RESULTAT DE MESURE
+
+Le résultat de mesure
+
+
+
+
+D'une façon générale, un résultat de mesure est constitué de 3 éléments :
+
+
+une valeur annoncée correspondant à la valeur moyenne du mesurande éventuellement corrigée si
+une erreur de justesse a été constatée
+
+
+
+une incertitude élargie associée à un intervalle de confiance
+
+
+
+une unité de mesure garantissant la traçabilité avec le Système International d'unités.
+
+Le résultat de la mesure s’exprimera avec une incertitude qui sera associée au niveau de
+confiance demandé (souvent 95%), de la forme
+Y = y ± U [unités] au niveau de confiance XX%
+où y est la valeur (moyenne) estimée de Y et U est l’incertitude élargie.
+
+
+
+59
+
+C’est-à-dire qu’on estime que : y − U ≤ Y ≤ y + U.
+
+Détermination de l’incertitude du mesurage
+
+
+Choisir une méthode de mesurage.
+
+
+
+Modéliser le mesurage :
+
+
+
+
+
+Déterminer les différentes variables qui entrent dans le mesurage.
+
+
+
+Déterminer les grandeurs d’influence.
+
+
+
+Déterminer la fonction mathématique qui lie ces variables.
+
+Déterminer les composantes de l’erreur sur chacune des variables.
+
+
+
+
+60
+
+Lister les composantes aléatoires et les composantes systématiques.
+
+Déterminer les incertitudes-types sur chacune des variables.
+
+
+Estimations de type A (statistiques) ou de type B (probabilistes)
+
+
+
+Éventuelle Incertitude – type composée sur chaque variable
+
+
+
+Déterminer l’incertitude – type composée sur le mesurage.
+
+
+
+Déterminer le facteur d’élargissement (associé à la loi supposée représenter la répartition des valeurs
+prises par le mesurande).
+
+
+
+Donner l’incertitude élargie sur le mesurage avec ses caractéristiques.
+
+Tolérance et incertitude de mesure
+
+61
+
+Tolérance t
+t/2
+
+t/2
+Vn
+Vv
+m
+
+
+
+Vn
+
+Valeur nominale
+
+
+
+Vv
+
+Valeur vraie
+
+
+
+m
+
+Résultat de mesure
+
+
+
+E
+
+
+
+C
+
+Correction des erreurs connues
+
+
+
+y
+
+Résultat corrigé
+
+
+
+e
+
+Erreur résiduelle inconnue
+
+E
+C
+y
+
+Vv
+e
+
+Erreur de mesure inconnue dont certaines
+composantes peuvent être connues
+
+Tolérance et incertitude de mesure
+Tolérance t
+t/2
+
+t/2
+
+Vv
+
+Vn
+
+
+
+Vn
+
+Valeur nominale
+
+
+
+Vv
+
+Valeur vraie
+
+
+
+Uc
+
+Incertitude de mesure composée
+
+
+
+U
+
+Incertitude de mesure élargie
+
+62
+
+U = k x Uc
+
+U
+y
+
+U
+
+
+
+Vv
+
+
+
+Coefficient d’élargissement (k=2)
+y - U < Vv < y + U
+
+2U
+
+Zone contenant Vv
+
+Expression du résultat :
+Y = y ± U (unités) avec k=2
+
+2U
+2U < tol./4 suivant
+NF EN ISO 14253-1
+
+k
+
+
+
+Attention à ne pas confondre incertitude de mesure et
+erreur résiduelle
+
+63
+
+Déclaration de conformité
+
+
+Selon NF EN ISO 14253-1 :
+Vn Valeur nominale
+Zone de tolérance t
+
+t/2
+
+U
+
+t/2
+
+U
+
+Zone 2
+Produit non conforme Zone 3
+à risque
+
+U
+
+Zone 1
+Produit conforme
+
+U
+
+Zone 3
+à risque
+
+Zone 2
+Produit non conforme
+
+Exemples
+
+64
+
+Dans le Guide pour l’expression de l’incertitude de mesure (JCGM 100:2008 – GUM),
+plusieurs exemples de calculs d’incertitude de mesure sont traités de façon très détaillée
+en annexe H.
+
+

@@ -1,0 +1,1219 @@
+1
+
+Métrologie – partie 3/3
+MKX 2A – S7 – L. CAMBON – 01/2026
+
+2
+
+SOMMAIRE
+
+1.
+
+DÉFINITION DU MESURANDE
+
+2.
+
+MÉTHODES ET INSTRUMENTS DE
+MESURE
+
+3.
+
+GESTION DU PARC D’INSTRUMENTS
+
+4.
+
+LIAISONS MÉCANIQUES
+
+5.
+
+TOLÉRANCES ET AJUSTEMENTS
+
+6.
+
+TOLÉRANCES GÉOMÉTRIQUES
+
+3
+
+SOMMAIRE
+
+1.
+
+DÉFINITION DU MESURANDE
+
+2.
+
+MÉTHODES ET INSTRUMENTS DE
+MESURE
+
+3.
+
+GESTION DU PARC D’INSTRUMENTS
+
+4.
+
+LIAISONS MÉCANIQUES
+
+5.
+
+TOLÉRANCES ET AJUSTEMENTS
+
+6.
+
+TOLÉRANCES GÉOMÉTRIQUES
+
+Définition du mesurande
+
+4
+
+
+
+Dans le processus métrologique, la première étape consiste à définir ce que l’on veut mesurer (le
+mesurande)
+
+
+
+La définition du mesurande peut nécessiter des indications relatives à des grandeurs telles que le
+temps, la température, la pression…
+
+
+
+Une illustration peut clarifier la définition.
+
+
+
+Définir avec suffisamment de détails le mesurande c’est :
+
+
+Eviter de perdre du temps avec l’utilisateur du résultat de mesure à cause d’une mauvaise interprétation.
+
+
+
+Ne pas introduire de causes d’incertitudes liées à une définition « floue » de ce que l’on veut mesurer.
+
+
+
+Choisir un processus de mesure adapté au mesurande.
+
+5
+
+Définition du mesurande
+
+
+
+Exemples :
+
+b)
+
+1) Distance
+entre
+Pression de vapeur d'un échantillon
+donné d'eau
+à 70le°Ccentre de la face
+supérieure de la cale et le plan sur
+b) Distance entre le centre de la face supérieure de la cale et le plan sur lequel elle
+lequel elle est adhérée, à 20 °C et
+est adhérée, à 20 °C et en position
+enverticale.
+position verticale.
+c) Distance entre deux centres des faces de la cale, à 20 °C, la cale étant en
+position horizontale.
+2) Distance entre les deux centres
+a)
+
+d)
+
+c)
+
+desàfaces
+de
+la étant
+cale,en
+à position
+20 °C,horizontale
+la
+Distance entre deux plans parallèles,
+20 °C, la
+cale
+cale étant en position horizontale.
+3) Distance entre deux plans
+parallèles, à 20 °C, la cale étant
+en position horizontale.
+
+d)
+
+6
+
+SOMMAIRE
+
+1.
+
+DÉFINITION DU MESURANDE
+
+2.
+
+MÉTHODES ET INSTRUMENTS DE
+MESURE
+
+3.
+
+GESTION DU PARC D’INSTRUMENTS
+
+4.
+
+LIAISONS MÉCANIQUES
+
+5.
+
+TOLÉRANCES ET AJUSTEMENTS
+
+6.
+
+TOLÉRANCES GÉOMÉTRIQUES
+
+La méthode de mesure
+
+7
+
+
+
+Il faut ensuite définir la méthode de mesure.
+
+
+
+C’est une succession logique d’opérations décrites d’une manière succincte permettant la
+mise en œuvre du mesurage.
+
+
+
+Le choix de la méthode oriente le choix des instruments de mesure .
+
+
+Méthodes directes
+
+
+
+Méthodes indirectes
+
+
+
+Contrôles par attribut
+
+8
+
+La méthode de mesure
+
+
+Les méthodes directes consistent à effectuer le relevé d’une dimension à partir d’une
+référence. La précision et la grandeur de la dimension influent sur le choix de la référence et
+de l’instrument.
+
+Résultat de
+mesurage
+
+opérateur
+
+micromètre
+
+pièce
+
+Les instruments de mesure directe
+Pied à coulisse
+(vernier ou digital)
+
+Jauges de profondeur
+(vernier ou digital)
+
+9
+
+Micromètre ou palmer
+
+jauges micrométriques
+
+réglet
+
+Les instruments de mesure directe
+Rapporteur
+Colonne de mesure et trusquin
+
+10
+
+11
+
+La méthode de mesure
+
+
+Les méthodes indirectes consistent à effectuer le relevé à l’aide d’un capteur de l’écart entre
+une pièce à mesurer et un étalon (pièce de référence).
+
+Résultat de
+mesurage
+
+opérateur
+
+comparateur
+
+cales
+étalon
+
+pièce
+
+marbre
+Lpièce= Létalon + α
+
+avec : Lpièce : Longueur pièce, Létalon: Longueur étalon, α : Ecart mesuré)
+
+12
+
+Les instruments de mesure indirecte
+
+Comparateurs
+Cales étalon
+
+Pour angles
+
+Les cales étalon
+
+13
+
+
+
+Principe de classification des boites de cale étalons basé sur l’incertitude sur la longueur de la
+cale étalon mesurée
+
+
+
+4 Classes (selon NF EN ISO 3650) :
+
+
+Classe K : classe prévue pour l’étalonnage d’autres cales étalons.
+
+
+
+Classe 0 : classe de référence, utilisée en général pour l'étalonnage d'équipements de métrologie tels
+que bancs de mesure, Machine à Mesurer Tridimensionnelle...
+
+
+
+Classe 1 : classe utilisée pour des étalons de référence ou de travail (suivant la précision des produits
+fabriqués par l’entreprise).
+
+
+
+Classe 2 : classe utilisée pour des étalons de travail.
+
+Les cales étalon
+
+14
+
+15
+
+La méthode de mesure
+
+
+
+Le contrôle par attribut est limité à une simple vérification de conformité (réponse par oui ou
+non, pas de mesurage)
+Pour filetages
+Pour alésages
+
+Pour arbres
+
+Pour angles
+
+La méthode de mesure
+
+
+
+Les machines à mesurer tridimensionnelles
+
+16
+
+L’instrument de mesure
+
+17
+
+
+
+Une opération de mesurage s’effectue avec l’instrument adéquat.
+
+
+
+L’adéquation se fait entre les exigences de la mesure et les caractéristiques de l’instrument de
+mesure :
+
+
+Etendue de Mesure : différence entre les valeurs extrêmes des indications
+
+
+
+Résolution : plus petite variation perceptible de l'indication
+
+
+
+Sensibilité : quotient de l’accroissement de la réponse par l’accroissement du signal d’entrée
+
+
+
+Classe d’exactitude : selon exigences d’application métrologiques, désignation par convention
+
+
+
+…
+
+18
+
+L’instrument de mesure
+
+
+La sensibilité d’un instrument de mesure est le rapport entre l'accroissement de la réponse Δd
+
+sur l'accroissement de la grandeur mesurée Δm
+
+S = Δd / Δm
+
+
+
+Dans la pratique, Δd se traduit par le déplacement relatif à la valeur d’un index, et Δm
+correspond au déplacement réel nécessaire à provoquer la variation Δd.
+
+
+
+La sensibilité peut dépendre de la valeur du signal d’entrée.
+
+
+
+La sensibilité d’une chaîne de mesure est égale au produit des sensibilités des divers éléments
+de la chaîne.
+
+
+
+Par exemple : micromètre à vernier avec Ø tambour = 15,9 mm, précision 1/100
+
+
+Circonférence du tambour = π.15,9 = 50 mm
+
+
+
+Un tour de tambour = 50 graduations ➔ déplacement du curseur / graduation = 1 mm
+
+
+
+Sensibilité = déplacement du curseur / variation de la grandeur mesurée = 1 mm / 0.01 mm = 100
+
+19
+
+Le pied à coulisse à vernier
+
+
+
+Nombre de divisions sur le coulisseau ➔ précision de lecture
+
+
+vernier au 1/10
+
+10 graduations sur 9 mm
+Précision = 0,1 mm
+
+
+(=1-9/10)
+
+1/10
+
+vernier au 1/20
+
+Coulisseau
+= vernier
+
+20 graduations sur 19 mm
+Précision = 0,05 mm
+
+
+(=1-19/20)
+
+règle
+
+vernier au 1/50
+
+50 graduations sur 49 mm
+Précision = 0,02 mm
+
+(=1-49/50)
+
+1/50
+
+Le pied à coulisse à vernier
+
+
+1
+
+20
+
+Méthode de lecture d’un vernier 1/50
+1.
+
+Lire le nombre entier de mm sur la règle, à gauche du zéro du vernier
+
+2.
+
+Lire les décimales sur le vernier = la seule graduation du vernier en face d’une graduation de la règle
+
+3.
+
+Additionner 1+2 pour obtenir la mesure exacte
+
+2
+3 ➔ 113,56 mm
+
+21
+
+Le micromètre
+
+
+Touche mobile à vis micrométrique au pas de 0,5 mm
+
+
+
+Précision = 1/100e de mm
+
+
+
+Beaucoup plus précis qu’un pied à coulisse
+
+touches
+
+tambour
+
+Vis de
+friction
+
+
+
+Les erreurs résultant de l'inégalité de pression de l'appareil sur les pièces à mesurer se trouvent
+éliminées par le système de friction.
+
+
+
+Les déformations de l'appareil sont négligeables, le corps pouvant avoir une section suffisante pour
+rendre toute flexion impossible.
+
+
+
+Les incertitudes de lecture sont très faibles, puisqu'une variation de cote de 1/100e de mm nécessite la
+rotation de la douille de la valeur d'une division, équivalent environ à 1 mm en longueur développée.
+
+
+
+Particularité de lecture ➔ nécessite une certaine attention pour ne pas commettre d’erreur
+
+
+
+Précaution d’emploi : utiliser obligatoirement et exclusivement la vis de friction pour mettre les
+touches de mesure au contact de la pièce à mesurer (ne pas utiliser le tambour)
+
+22
+
+Le micromètre à vernier
+1/100
+
+2. Ajouter 0,5 mm
+
+2. Lire la décimale
+au 1/100e
+(graduation alignée
+à la génératrice
+graduée)
+➔ 0,12
+
+3. Lire la décimale
+au 1/100e
+(graduation alignée
+à la génératrice
+graduée)
+➔ 0,48
+
+1. Lire le nombre entier de mm ➔ 13
+
+1. Lire le nombre entier de mm ➔ 12
+
+3. Additionner 1+2 ➔ 13,12 mm
+
+4. Additionner 1+2+3 ➔ 12,98 mm
+
+Le micromètre à vernier additionnel
+
+23
+
+1/1000
+
+
+
+La valeur de 0,21 mm ((2) ci-dessus) est indiquée par l’alignement de la ligne de référence sur la douille avec la
+graduation du tambour.
+
+
+
+La valeur de 0,003 mm ((3) ci-dessus) est indiquée par l’alignement d’une graduation du vernier sur une graduation du
+tambour.
+
+24
+
+Le pied à coulisse à vernier
+1/50
+67,84 mm
+
+90,18 mm
+
+31,40 mm
+
+71,96 mm
+
+25
+
+Le micromètre à vernier
+1/100
+
+117,77 mm
+
+42,99 mm
+
+37,02 mm
+
+19,93 mm
+
+Le micromètre à vernier additionnel
+
+0-10 mm (1/1000)
+40-35 mm
+(1/1000)
+37,310 mm
+
+5,783 mm
+
+10-6 mm
+(1/1000)
+
+8,613 mm
+
+26
+
+27
+
+SOMMAIRE
+
+1.
+
+DÉFINITION DU MESURANDE
+
+2.
+
+MÉTHODES ET INSTRUMENTS DE
+MESURE
+
+3.
+
+GESTION DU PARC D’INSTRUMENTS
+
+4.
+
+LIAISONS MÉCANIQUES
+
+5.
+
+TOLÉRANCES ET AJUSTEMENTS
+
+6.
+
+TOLÉRANCES GÉOMÉTRIQUES
+
+La gestion du parc d’instruments
+
+Cycle de vie
+des instruments
+
+
+
+28
+
+Les 7 étapes de la gestion d’un parc ou préparation pour la réalisation de pièces et leur
+intégration :
+
+
+Étape 1 : Constitution du parc ou mobilisation d’un parc pour une opération
+
+
+
+Étape 2 : Mise en place des éléments du système d’information, logiciels de gestion
+
+
+
+Étape 3 : Mise en place des procédures de gestion de parc
+
+
+
+Étape 4 : Rédaction des fiches de vie des instruments
+
+
+
+Étape 5 : Etalonnage ou vérification initiale
+
+
+
+Étape 6 : Mise en place du suivi des instruments
+
+
+
+Étape 7 : Réforme ou déclassement des instruments
+
+La gestion du parc d’instruments
+
+
+Étape 1 : Constitution du parc
+
+
+
+La cible métrologique est une tolérance sur le produit !
+
+
+
+Inventaire des dimensions à contrôler :
+
+
+
+
+
+Longueurs,
+
+
+
+Angle,
+
+
+
+Planéité,
+
+
+
+Coaxialité…
+
+L’instrument doit être adapté au mesurage / qualité du produit !
+
+29
+
+La gestion du parc d’instruments
+
+30
+
+
+
+Étape 2 : Compléter le système d’information par des logiciels dédiés pour la gestion du parc,
+ou à défaut proposer un tableur.
+
+
+
+Le mécatronicien pourra déployer des capteurs dans les salles dédiées à la métrologie, ou sur
+la chaine de production…
+
+
+
+Pour le contrôle de l’environnement, des capteurs (instruments) seront déployés / reliés au
+système d’information.
+
+
+
+Pour la gestion du parc, les progiciels sont nombreux : QS-Métro, Hasting, Optimu, Dimelco,
+Deca, Gessica…
+
+La gestion du parc d’instruments
+
+
+Étapes 3, 4 : Mise en place des procédures de gestion de parc, fiche de vie
+
+
+
+Inventaire des fiches de vie :
+
+
+Identification de l’équipement de mesure
+
+
+
+Etat du matériel à la réception
+
+
+
+Localisation / affectation de l’instrument
+
+
+
+Références / maintenance
+
+
+
+Références / étalonnage
+
+
+
+Références des moyens étalonnages
+
+
+
+Documents de référence
+
+
+
+Date de l’intervention
+
+
+
+Résultats étalonnage, vérification
+
+
+
+Intervalle entre deux étalonnages ou vérifications
+
+
+
+Identification de l’intervenant
+
+
+
+Identification du responsable métrologie
+
+31
+
+Norme FD X07-018 :
+Métrologie dans l'entreprise
+Fiche de vie des équipements de mesure,
+de contrôle et d'essai.
+
+La gestion du parc d’instruments
+
+
+Exemple de fiche de vie
+
+32
+
+La gestion du parc d’instruments
+
+33
+
+
+
+Étape 5 : Etalonnage ou vérification initiale
+
+
+
+Un étalonnage permet de connaître l'erreur de l'instrument et, en cas de défaut de justesse, de
+la compenser en appliquant une correction (par exemple ajustement du zéro).
+
+
+
+Une vérification est une confirmation de conformité au regard de spécifications. Elle démontre
+que l’erreur de mesure reste plus petite que l’erreur maximale tolérée (la plus grande erreur
+admissible pour l’utilisateur).
+
+
+
+étalonnage ➔ connaissance ➔ certificat d’étalonnage
+
+
+
+vérification ➔ confiance ➔ constat de vérification
+
+La gestion du parc d’instruments
+
+
+Étape 6 : Mise en place du suivi des instruments
+
+
+
+Norme FD X07-018
+
+
+
+
+
+Périodicité des vérifications ?
+
+
+
+Périodicité des étalonnages ?
+
+
+
+A définir selon les besoins et normes / règles applicables
+
+
+
+A ajuster par retour d’expérience
+
+34
+
+Étape 7 : Réforme ou déclassement des équipements
+
+
+La mise en réforme est la conséquence d’un dysfonctionnement ou d’une dérive constatée non
+maitrisée.
+
+
+
+Le déclassement est le constat, par exemple d’une Erreur Maximale Tolérée non validée.
+
+La gestion du parc d’instruments
+
+35
+
+36
+
+SOMMAIRE
+
+1.
+
+DÉFINITION DU MESURANDE
+
+2.
+
+MÉTHODES ET INSTRUMENTS DE
+MESURE
+
+3.
+
+GESTION DU PARC D’INSTRUMENTS
+
+4.
+
+LIAISONS MÉCANIQUES
+
+5.
+
+TOLÉRANCES ET AJUSTEMENTS
+
+6.
+
+TOLÉRANCES GÉOMÉTRIQUES
+
+Les liaisons mécaniques
+
+
+Lorsqu’un solide est en contact avec un autre solide : ils sont liés.
+
+
+
+Il existe de nombreuses liaisons mécaniques ; les plus importantes ont été normalisées :
+
+37
+
+Les liaisons mécaniques
+
+
+Les liaisons mécaniques sont caractérisées par des degrés de liberté.
+
+38
+
+Les liaisons mécaniques
+
+
+
+On peut ainsi déterminer le modèle d’un système mécanique :
+
+
+
+L’analyse fonctionnelle caractérise les degrés de liberté.
+
+39
+
+Les liaisons mécaniques
+
+
+Un assemblage a du jeu si la dimension de l’élément contenant (2) est plus
+grande que celle de l’élément contenu (1).
+
+
+
+Dans le cas contraire il y a serrage.
+
+
+
+Un jeu ou un serrage se calcule par la différence entre les cotes des deux
+éléments 1 et 2.
+
+
+
+Il peut aussi s’apprécier après montage.
+
+
+
+Deux méthodes sont utilisées pour la réalisation pratique d’un ajustement :
+
+1)
+
+La pièce 1 est fabriquée et sert de calibre pour l’usinage de la pièce 2.
+➔ Difficile dans le cas de série car très onéreux ➔Applicable au prototype.
+
+2)
+
+On fixe le jeu entre les deux pièces 1 et 2. On fixe la cote de la 1ère pièce.
+On en déduit la cote de la 2e.
+➔ Adaptée à la série, coût de revient bas.
+
+40
+
+41
+
+SOMMAIRE
+
+1.
+
+DÉFINITION DU MESURANDE
+
+2.
+
+MÉTHODES ET INSTRUMENTS DE
+MESURE
+
+3.
+
+GESTION DU PARC D’INSTRUMENTS
+
+4.
+
+LIAISONS MÉCANIQUES
+
+5.
+
+TOLÉRANCES ET AJUSTEMENTS
+
+6.
+
+TOLÉRANCES GÉOMÉTRIQUES
+
+Tolérances et ajustements
+
+42
+
+
+
+Il est impossible de réaliser une pièce à une cote rigoureuse (juste). Des tolérances de
+fabrication sont à considérer.
+
+
+
+Une cote imposée sera plus facile à réaliser si elle peut varier entre deux valeurs limites : une
+cote maximale et une cote minimale. La différence entre les deux s'appelle la tolérance, ou
+intervalle de tolérance.
+
+
+
+Plus la précision exigée est grande, plus l'intervalle de tolérance doit être petit.
+
+
+
+Le choix de l’outillage, de la machine et des moyens métrologiques de contrôle est contraint :
+il faut être capable de réaliser la pièce dans l’intervalle de tolérance spécifié.
+
+Cotation tolérancée
+
+
+Cote nominale : Dimension ou cote qui sert de référence
+pour l'indentification et l'inscription sur les dessins.
+
+
+
+Tolérance ou intervalle de tolérance : Variation permise
+(tolérée, admissible) de la cote réelle de la pièce.
+
+
+
+Ecart supérieur (ES) : il est égal à la différence entre la cote
+maximale admissible et la cote nominale.
+ES = dmax - dnominal
+
+
+
+Ecart inférieur (EI) : Il est égal à la différence entre la cote
+minimale admissible et la cote nominale.
+
+EI = dmin - dnominal
+
+
+Un intervalle de tolérance peut être symétrique (92 ± 1) ou
++4
+−1
+bilatéral (92−1
++2 ); positif (90+1 ) ou négatif (95−4 ), .
+
+43
+
+Ajustements normalisés ISO
+
+44
+
+
+
+Les ajustements sont des catégories de dimensions tolérancées normalisées utilisées pour les
+assemblages de deux pièces cylindriques ou prismatiques.
+
+
+
+On trouve des ajustements avec jeu (1), avec jeu incertain (jeu ou serrage) (2), avec serrage
+ou interférence (3).
+
+Ajustements normalisés ISO
+
+
+La désignation normalisée d’un ajustement
+s’écrit :
+Ø 60 H7 g6
+
+Cote
+nominale
+
+Arbre
+lettre minuscule = écart
+chiffre = intervalle de tolérance
+
+Alésage
+lettre majuscule = écart
+chiffre = intervalle de tolérance
+
+45
+
+Ajustements normalisés ISO
+
+
+Intervalles de tolérance (ou qualités) normalisées :
+
+les plus courant
+
+46
+
+Choix des ajustements
+
+47
+
+
+
+Attention : le prix dépend de la qualité !
+
+
+
+Les coûts augmentent avec le degré de précision exigé. Pour un ajustement, on associe le plus
+souvent un alésage de qualité donnée avec un arbre de qualité voisine immédiatement
+inférieure (sensiblement mêmes difficultés d'obtention et mêmes coûts).
+
+Choix des ajustements
+
+
+Le mode de fabrication doit être choisi en fonction de l’ajustement recherché.
+
+48
+
+Le système d’alésage normal
+
+49
+
+
+
+Le système d’alésage normal est le système le plus utilisé et le plus facile à mettre en œuvre. Dans
+ce système, l'alésage H est toujours pris comme base ; seule la dimension de l'arbre est à choisir.
+
+
+
+Un ajustement libre est obtenu pour des arbre e ou f
+
+
+
+Un ajustement glissant est obtenu pour des arbres g
+
+
+
+Un ajustement serré est obtenu pour des arbre m ou p
+
+Ajustements standards
+
+50
+
+Tolérances et ajustements
+
+51
+
+52
+
+Tolérances et ajustements
+
+(H7g6 = G6h7)
+Lien vers simulateur d'ajustement
+
+Alésage Ø12 H7 ➔ IT = 18 µm ➔
+Arbre Ø12 g6
+
+➔ IT = 11 µm ➔
+
+Jeu : mini = 6 µm / maxi = 35 µm ➔ ajustement glissant
+
+53
+
+SOMMAIRE
+
+1.
+
+DÉFINITION DU MESURANDE
+
+2.
+
+MÉTHODES ET INSTRUMENTS DE
+MESURE
+
+3.
+
+GESTION DU PARC D’INSTRUMENTS
+
+4.
+
+LIAISONS MÉCANIQUES
+
+5.
+
+TOLÉRANCES ET AJUSTEMENTS
+
+6.
+
+TOLÉRANCES GÉOMÉTRIQUES
+
+Les tolérances géométriques
+
+54
+
+Les tolérances géométriques
+
+55
+
+Les tolérances géométriques
+
+56
+
+Les tolérances géométriques
+
+57
+
+Les tolérances géométriques
+
+58
+
+Les tolérances géométriques
+
+59
+
+Les tolérances géométriques
+
+60
+
+Les tolérances géométriques
+
+61
+
+Les tolérances géométriques
+
+62
+
+

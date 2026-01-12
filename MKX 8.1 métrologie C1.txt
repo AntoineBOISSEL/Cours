@@ -1,0 +1,1986 @@
+1
+
+Métrologie – partie 1/3
+MKX 2A – S7 – L. CAMBON – 01/2026
+
+2
+
+SOMMAIRE
+
+1.
+
+QU’EST CE QUE LA MÉTROLOGIE ?
+
+2.
+
+HISTORIQUE
+
+3.
+
+LA MESURE
+
+4.
+
+LE SYSTÈME INTERNATIONAL
+D’UNITES
+
+5.
+
+LES ORGANISATIONS
+
+6.
+
+LA CHAINE D’ETALONNAGE
+
+3
+
+SOMMAIRE
+
+1.
+
+QU’EST CE QUE LA MÉTROLOGIE ?
+
+2.
+
+HISTORIQUE
+
+3.
+
+LA MESURE
+
+4.
+
+LE SYSTÈME INTERNATIONAL
+D’UNITES
+
+5.
+
+LES ORGANISATIONS
+
+6.
+
+LA CHAINE D’ETALONNAGE
+
+Etymologie
+
+4
+
+
+
+Le sens étymologique du mot « métrologie » vient du grec ancien « mètre » et « traité ».
+
+
+
+Par extension c’est la science de la mesure.
+
+
+
+L’usage et la science sont souvent confondus. Ce constat révèle une difficulté : tout le monde
+fait de la mesure… malgré la complexité de cette discipline.
+
+5
+
+Application
+
+
+Dans les domaines ci-dessous, citez au moins 4 types de mesure
+
+Compétitions
+sportives
+
+Hébergement
+
+Restauration
+
+Sécurité
+
+Médiatisation
+
+Médical
+
+La métrologie, à quoi ça sert ?
+
+6
+
+
+
+La métrologie s’intéresse traditionnellement à la détermination de caractéristiques, appelées
+grandeurs, qui peuvent être fondamentales (ex : une longueur, une masse, un temps), ou
+dérivées des grandeurs fondamentales (ex : une surface, une vitesse).
+
+
+
+Par ailleurs, il existe des caractéristiques n’ayant qu’une relation indirecte avec ces grandeurs.
+C’est le cas, par exemple, de la dureté ou de la viscosité.
+
+
+
+Mesurer une grandeur physique consiste à lui attribuer une valeur quantitative en prenant pour
+référence une grandeur de même nature appelée unité.
+
+
+
+Dans le langage courant des « métrologues », on entend souvent dire mesurer c’est comparer.
+
+La métrologie, à quoi ça sert ?
+
+
+7
+
+Les résultats des mesures servent à prendre des décisions dans de nombreux domaines, tels
+que :
+
+
+acceptation d’un produit (mesure de caractéristiques, de performances, conformité à une exigence),
+
+
+
+réglage d’un instrument de mesure, validation d’un procédé,
+
+
+
+réglage d’un paramètre dans le cadre d’un contrôle d’un procédé de fabrication
+
+
+
+validation d’une hypothèse scientifique,
+
+
+
+protection de l’environnement,
+
+
+
+définition des conditions de sécurité d’un produit ou d’un système.
+
+
+
+L’ensemble de ces décisions concourt à la qualité des produits ou des services : on peut
+qualifier quantitativement la qualité d’un résultat de mesure grâce à son incertitude.
+
+
+
+En effet, sans incertitude, les résultats de mesure ne peuvent plus être comparés :
+
+
+soit entre eux (essais croisés),
+
+
+
+soit par rapport à des valeurs de référence spécifiées dans une norme ou une spécification
+(conformité d’un produit).
+
+8
+
+Application
+
+
+Pour chaque type de mesure, indiquez une décision afférente
+
+Compétitions
+sportives
+
+Hébergement
+
+Restauration
+
+Sécurité
+
+Médiatisation
+
+Médical
+
+9
+
+SOMMAIRE
+
+1.
+
+QU’EST CE QUE LA MÉTROLOGIE ?
+
+2.
+
+HISTORIQUE
+
+3.
+
+LA MESURE
+
+4.
+
+LE SYSTÈME INTERNATIONAL
+D’UNITES
+
+5.
+
+LES ORGANISATIONS
+
+6.
+
+LA CHAINE D’ETALONNAGE
+
+10
+
+Naissance de la métrologie
+
+-6000
+
+Néolithique
+: civilisation
+agraire
+
+Sédentarisation
+cultures
+
+échanges
+
+commerce
+
+Fixe les règles
+d’échange
+1ère
+révolution
+technique
+
+Poids olive
+
+Surplus
+vivrier
+
+Développement
+économique et
+social
+
+Poids en pierre non marqués
+
+métrologie
+
+Poids canard
+
+étalon
+
+La référence commune : l’étalon
+
+11
+
+
+
+Référence commune = base de toute négociation réciproque et juste
+
+
+
+Nécessite un arbitrage entre plusieurs groupes de pression (marchands, acheteurs, paysans,
+classes dirigeantes, seigneurs fieffés, abbayes, pouvoir royal…)
+
+
+
+Chacun cherche à modifier les étalons pour servir son intérêt
+
+
+
+Conservation des étalons dans des lieux symboliques
+
+
+
+
+
+Temples et palais
+
+
+
+Halles de marchés
+
+
+
+Églises
+
+Tentatives d’unification des étalons ➔ actions éducatives
+
+Diversité des mesures
+
+12
+
+
+
+Milliers de mesures différentes, réinventées ou reconfigurées, qui vivent et s’éteignent.
+
+
+
+744 : Childéric III veut unifier les mesures
+
+
+
+800 : Charlemagne ordonne que les mesures soient égales et les poids justes
+
+
+
+1780 : cahiers de doléances sous Louis XVI ➔ un roi, une loi, un poids et une mesure.
+
+
+
+Observations de la Société royale d’agriculture sur l’uniformité des Poids et mesures, réalisées
+par Villeneuve, présentation à l’Assemblée nationale le 6 février 1790.
+
+« C’est un fait notoire que non seulement on se sert en France de quantité de poids différents qui
+portent tous le nom de livre, mais encore une multitude de boisseaux, d’aunes, de verges, de
+cannes, de toises, de pintes ; et que ces mesures diffèrent entre elles, quoiqu’on les désigne par le
+même nom ; que ces différences sont très considérables, non pas d’une province à une autre, ou
+d’une ville à une autre, mais dans la même ville, dans le même bourg, dans le même village »
+
+La métrologie aux savants
+
+13
+
+
+
+La métrologie est alors confiée aux savants : philosophes, hommes de sciences et acteurs
+politiques de l’époque.
+
+
+
+En 1795, le premier système cohérent de métrologie, le système métrique décimal, est
+considéré comme un triomphe de l’esprit humain.
+
+
+
+Vecteur d'une égalité entre les citoyens, de fraternité entre les peuples, de la libération des
+hommes.
+
+
+
+La métrologie est ensuite confiée aux scientifiques et ingénieurs.
+
+
+
+Elle va subir des transformations scientifiques, techniques et organisationnelles de très grande
+ampleur.
+
+
+
+De nos jours, la métrologie du quotidien charpente et coordonne nos actes journaliers.
+Pourtant, peu de personnes en connaissent les tenants et aboutissants.
+
+14
+
+SOMMAIRE
+
+1.
+
+QU’EST CE QUE LA MÉTROLOGIE ?
+
+2.
+
+HISTORIQUE
+
+3.
+
+LA MESURE
+
+4.
+
+LE SYSTÈME INTERNATIONAL
+D’UNITES
+
+5.
+
+LES ORGANISATIONS
+
+6.
+
+LA CHAINE D’ETALONNAGE
+
+La mesure d’une grandeur physique
+
+15
+
+
+
+On appelle grandeur physique toute propriété de la nature qui peut être quantifiée par la
+mesure ou le calcul, et dont les différentes valeurs possibles s'expriment à l'aide d'un nombre
+généralement accompagné d'une unité de mesure.
+
+
+
+Exemples de grandeurs physiques :
+
+
+
+
+
+La masse exprimée en kilogramme
+
+
+
+La longueur exprimée en mètre
+
+Exemples de grandeurs sans dimension :
+
+
+Indice de réfraction d’un milieu
+
+
+
+Densité
+
+La mesure d’une grandeur physique
+
+16
+
+
+
+L'addition et la soustraction de nombres n'est possible que s'ils sont relatifs à la même grandeur.
+
+
+
+On peut multiplier ou diviser des grandeurs différentes ➔ on obtient une nouvelle grandeur
+dérivée des deux autres.
+
+
+Ex : la vitesse est issue de la division de la longueur par le temps.
+
+
+
+Il existe donc théoriquement une infinité de grandeurs, mais seul un certain nombre d'entre
+elles sont utilisées dans la pratique.
+
+
+
+Le domaine de la physique qui traite des relations entre les grandeurs est l'analyse
+dimensionnelle.
+
+La mesure d’une grandeur physique
+
+
+
+
+On écrira le résultat de la mesure d’une grandeur sous la forme :
+
+X = {X} · [X]
+
+
+
+X est le nom de la grandeur physique,
+
+
+
+[X] représente l’unité
+
+
+
+{X} est la valeur numérique de la grandeur exprimée dans l’unité choisie.
+
+Toute grandeur physique est invariante :
+
+elle ne dépend pas de l’unité dans laquelle on l’exprime.
+
+
+Par exemple :
+
+longueur l
+
+=
+
+30,4 cm
+0,304 m
+12 pouces
+
+1,646·10−4 milles nautiques
+
+
+La valeur numérique dépend de l’unité choisie.
+
+
+
+En conséquence, l’unité doit toujours être précisée.
+
+17
+
+18
+
+Application
+
+
+Pour chaque type de mesure, indiquez la grandeur mesurée et son unité.
+
+Compétitions
+sportives
+
+Hébergement
+
+Restauration
+
+Sécurité
+
+Médiatisation
+
+Médical
+
+Vocabulaire
+
+19
+
+
+
+L’opération communément appelée mesure est appelée le mesurage.
+
+
+
+La grandeur physique soumise à l’opération de mesurage est appelée le mesurande (= ce que
+l’on cherche à mesurer).
+
+
+
+Il ne faut pas utiliser le terme précision mais le terme incertitude.
+
+20
+
+SOMMAIRE
+
+1.
+
+QU’EST CE QUE LA MÉTROLOGIE ?
+
+2.
+
+HISTORIQUE
+
+3.
+
+LA MESURE
+
+4.
+
+LE SYSTÈME INTERNATIONAL
+D’UNITES
+
+5.
+
+LES ORGANISATIONS
+
+6.
+
+LA CHAINE D’ETALONNAGE
+
+Le système international d’unités
+
+21
+
+
+
+Le Système International d'unités (abrégé en SI), inspiré du système métrique et adopté en
+1960, est le système d'unités le plus largement employé dans le monde.
+
+
+
+Il s'agit d'un système d'unités décimal (on passe d'une unité à ses multiples ou sous-multiples à
+l'aide de puissances de 10).
+
+
+
+C'est la Conférence Générale des Poids et Mesures, rassemblant des délégués des états
+membres de la Convention du Mètre, qui décide de son évolution, tous les quatre ans, à Paris.
+
+
+
+L'abréviation de « Système International » est SI, quelle que soit la langue utilisée.
+
+
+
+La norme internationale ISO 1000 (ICS 01 060) décrit les unités du Système International et les
+recommandations pour l'emploi de leurs multiples et de certaines autres unités.
+
+
+
+Pour définir les unités, on recherche des définitions à caractère universel utilisant les constantes
+physiques plutôt que des objets uniques déposés en un lieu donné.
+
+
+
+Les définitions des unités de base du SI utilisent des phénomènes physiques reproductibles.
+
+22
+
+Application
+
+
+Il y a 7 unités de base. Quelles sont-elles ?
+
+Compétitions
+sportives
+
+Hébergement
+
+Restauration
+
+Sécurité
+
+Médiatisation
+
+Médical
+
+23
+
+Les 7 unités de base
+Intensité lumineuse (J) : Candela [cd)
+
+intensité lumineuse, dans une direction donnée,
+d’une
+source
+qui
+émet
+un
+rayonnement
+monochromatique de fréquence 540 x 1012 hertz et
+dont l’intensité énergétique dans cette direction est
+1/683 watt par stéradian
+
+Quantité matière (N) : Mole [mol]
+
+qté de matière d’un système contenant autant
+d’entités élémentaires qu’il y a d’atomes dans
+0,012 kg de carbone 12
+
+Température (T) : Kelvin (K]
+
+fraction 1/273,16 de la température
+thermodynamique du point triple de l’eau
+
+Masse (m) : kilogramme [kg]
+
+Constante de Planck, h, égale à 6,626 070 15 ×10–34 J·s
+
+Longueur (l) : mètre [m]
+
+Longueur du trajet parcouru par la lumière dans
+le vide pendant une durée de 1/ 299 792 458 s
+
+Temps (t) : seconde [s]
+
+durée de 9 192 631 770 périodes de la radiation
+correspondant à la transition entre les deux
+niveaux hyperfins de l’état fondamental de
+l’atome de césium 133
+
+Intensité électrique (I) : Ampère [A]
+
+Intensité d’un courant constant qui, maintenu dans deux conducteurs
+parallèles, rectilignes, de longueur infinie, de section circulaire négligeable et
+placés à une distance de 1 mètre l’un de l’autre dans le vide, produirait entre
+ces conducteurs une force égale à 2.10 – 7 newton par mètre de longueur.
+
+Focus sur le kilogramme
+
+
+Historiquement, la définition du kilogramme était la masse d'un
+décimètre cube d'eau (un litre).
+
+
+
+Puis, en 1889, le kilogramme a été la masse du prototype
+international du kilogramme, composé d'un alliage de platine et
+d'iridium (90%-10%), conservé au Bureau international des poids et
+mesures à Sèvres, en France.
+
+
+
+Qualités de l’alliage : inaltérabilité, dureté, masse volumique
+importante ➔ minimise les surfaces donc les risques d’altération
+
+
+
+Dimensions Ø39mm x 39mm
+
+
+
+C’était le dernier étalon matériel (jusqu’en 2019)
+
+
+
+40 copies issues de la même coulée ont été attribuées à la plupart
+des pays et servaient d’étalon national .
+
+24
+
+Focus sur le kilogramme
+
+25
+
+Constat d’une dérive relative du
+prototype international du
+kilogramme par rapport à un
+ensemble de prototypes nationaux ou
+témoins de même nature.
+Les valeurs obtenues depuis plus de
+100 ans ont mis en évidence une
+dérive différentielle relative de 3.10−8
+et une dispersion des valeurs des
+prototypes nationaux et témoins de
+l’ordre de 1.10−7, montrant ainsi la
+fragilité de cette définition.
+Depuis 2019, la nouvelle définition du
+kilogramme est fondée sur la
+constante de Planck.
+
+Focus sur le mètre
+
+
+26
+
+En 1791, une commission doit choisir entre 3 références pour fixer la base de l’unité mètre :
+
+
+
+
+la longueur du pendule simple à secondes à la latitude de 45°
+la longueur du quart du cercle de l'équateur
+la longueur du quart du méridien terrestre ➔ le plus simple à calculer et le plus universel
+
+
+
+La première définition officielle et pratique du mètre (1791) était basée sur la circonférence de
+la terre, et valait 1/40 000 000 d'un méridien (astronomique).
+
+
+
+En 1799, un nouveau mètre-étalon en platine dédié "à tous les temps, à tous les peuples", est
+déposé aux archives de la république.
+
+
+
+Il est remplacé en 1889 par le prototype international du mètre, en platine irridié.
+
+Focus sur le mètre
+
+27
+
+
+
+En 1960, le mètre est redéfini comme étant égal à 1 650 763,73 fois la longueur d'onde, dans le
+vide, d'une radiation orangée de l'atome krypton 86 ➔ étalon naturel, reproductible, offrant
+des garanties de permanence et d'invariabilité permettant d'avoir une exactitude près de
+cinquante fois supérieure au prototype international, et une meilleure garantie de
+conservation à très long terme.
+
+
+
+En 1983, suite aux importants travaux sur la vitesse de la lumière et sur les horloges atomiques,
+le mètre est redéfini en fonction de la vitesse de la lumière, comme égal "à la longueur du
+trajet parcouru dans le vide par la lumière pendant 1/299 792 458 de seconde".
+
+Focus sur la seconde
+
+28
+
+
+
+Avant 1960, l’unité de temps, la seconde, était définie comme la fraction 1/86 400 du jour
+solaire moyen, défini par les astronomes ➔ pas satisfaisante du fait des irrégularités de la
+rotation de la Terre
+
+
+
+1968 : nouvelle définition de la seconde fondée sur la fréquence de la transition hyperfine de
+l’état fondamental de l’atome de césium 133.
+
+
+
+La métrologie du temps se présente sous deux aspects :
+
+
+
+
+
+La mise en œuvre d’un outillage permettant de réaliser la seconde (intervalle de temps) : la fontaine
+atomique (= meilleure horloge atomique)
+
+
+
+Le maintien en permanence d’une échelle de temps élaborée de façon continue à l’aide d’une
+horloge basée sur le décompte d’intervalles de temps générés par des étalons.
+
+Des recherches sont en cours pour baser la définition de la seconde sur des horloges optiques
+et non atomiques et devraient aboutir dans un avenir proche.
+
+Focus sur la seconde
+
+29
+
+
+
+Le Laboratoire National de métrologie et d'Essais (LNE) établit l’échelle française de temps :
+Fonctionnement en continu d’une horloge commerciale (choisie pour sa stabilité).
+
+
+
+Le Temps Atomique Français (TAF) est obtenu par la moyenne de 20 horloges à césium fonctionnant
+dans 11 laboratoires et comparées entre elles.
+
+
+
+La qualité de l’échelle de temps atomique (1972) est telle qu’après 1 million d’années de
+fonctionnement elle différerait de l’échelle idéale de moins d’une seconde.
+
+
+
+La section Temps du BIPM utilise les résultats de 230 horloges atomiques pour établir l’échelle de Temps
+Atomique Internationale (TAI) = Référence scientifique mondiale qui permet la synchronisation des
+échelles de temps des différents pays.
+
+
+
+
+
+UT1 : Le Temps Universel : Temps solaire du méridien de Greenwich .
+
+
+
+UTC : Temps Universel Coordonné (1 fois par an correction de 1s)
+
+Diffusion du temps :
+
+
+10 ns par GPS
+
+
+
+1 ms par signaux horaires codés par France Inter Grandes Ondes (fréquence 162 kHz)
+
+
+
+50 ms par accès téléphonique à l’horloge parlante (Utilisée pour l’étalonnage de chronomètres dans l’industrie )
+
+Redéfinition des unités de base
+
+Conférence des Poids
+et Mesures (CGPM)
+➔ décide des évolutions
+tous les 4 ans
+
+Valable depuis 2019
+
+30
+
+Les unités supplémentaires
+
+
+l’unité d’angle plan : le radian [rad]
+
+
+
+
+31
+
+angle plan compris entre deux rayons qui, sur la
+circonférence d’un cercle, interceptent un arc de
+longueur égale à celle du rayon,
+
+l’unité d’angle solide : le stéradian [sr]
+
+
+angle solide qui, ayant son sommet au centre d’une
+sphère, découpe sur la surface de cette sphère une aire
+égale à celle d’un carré ayant pour côté le rayon de la
+sphère.
+
+
+
+Le radian et le stéradian doivent être considérés comme des unités sans dimension qui peuvent être
+utilisées ou non dans les expressions des unités dérivées.
+
+
+
+L’heure et la minute ne sont pas des multiples décimaux de la seconde donc ne sont pas des unités
+du S.I. mais sont reconnues.
+
+32
+
+Les unités dérivées
+
+
+
+Les unités dérivées font partie du SI et sont déduites des sept unités de base.
+Masse
+[kg]
+
+Grandeur
+
+Unité
+
+Expression en
+unités de base
+
+force
+
+newton (N)
+
+m⋅kg⋅s-2
+
+pression
+
+pascal (Pa)
+
+m-1⋅kg⋅s-2
+
+différence de
+potentiel électrique
+
+volt (V)
+
+m2⋅kg.s-3⋅A-1
+
+Travail, énergie et
+quantité de chaleur
+
+joule (J)
+
+m2⋅kg⋅s-2
+
+puissance, flux
+énergétique et flux
+thermique
+
+watt (W)
+
+m2⋅kg⋅s-3
+
+Expression en
+d’autres unités
+
+Relation
+Force =
+masse · accélération
+
+N.m-2
+
+N.m
+
+J.s-1
+
+Pression = force / surface
+
+Travail = force · distance;
+énergie cinétique =
+masse · vitesse² / 2
+
+Puissance = travail / temps
+
+33
+
+Les unités dérivées
+
+Longueur
+[m]
+
+Grandeur
+
+Unité
+
+Expression en unités de base
+
+aire, superficie
+
+mètre carré
+
+m2
+
+volume
+
+mètre cube
+
+m3
+
+angle plan
+
+radian (rad)
+
+m⋅m-1
+
+angle solide
+
+stéradian (sr)
+
+m2⋅m-2
+
+dose absorbée
+
+gray (Gy)
+
+m2⋅s-2
+
+34
+
+Les unités dérivées
+
+Temps
+[s]
+
+Grandeur
+
+Unité
+
+Expression en Expression en
+unités de base d’autres unités
+
+Relation
+
+fréquence
+
+hertz (Hz)
+
+s-1
+
+Fréquence =
+1 / période
+
+activité d’un
+radionucléide
+
+becquerel (Bq)
+
+s-1
+
+équivalent de dose
+
+sievert (Sv)
+
+m2⋅s-2
+
+J.Kg-1
+
+dose absorbée
+
+gray (Gy)
+
+m2⋅s-2
+
+J.Kg-1
+
+35
+
+Les unités dérivées
+
+Intensité
+électrique
+[A]
+
+Grandeur
+
+Unité
+
+Expression en
+unités de
+base
+
+charge électrique
+
+coulomb
+(C)
+
+A.s
+
+différence de potentiel
+électrique
+
+volt (V)
+
+m2⋅kg⋅s−3⋅A−1
+
+J.C-1
+
+Tension =
+travail / charge
+
+résistance électrique
+
+ohm (Ω)
+
+m2⋅kg⋅s−3⋅A−2
+
+kg m2 s-3 A-2
+
+Résistance =
+tension / courant
+
+capacité électrique
+
+farad (F)
+
+m−2⋅kg−1⋅s4⋅A2
+
+C.V-1
+
+Capacité =
+charge / tension
+
+inductance
+
+henry (H)
+
+m2⋅kg⋅s−2⋅A−2
+
+V.s.A-1
+
+inductance =
+tension*temps / courant
+
+induction magnétique
+
+tesla (T)
+
+kg⋅s−2⋅A−1
+
+V s m-2
+
+Induction =
+Tension*temps / surface
+
+Expression en
+Relation
+d’autres unités
+Charge =
+courant * temps
+
+36
+
+Les unités dérivées
+
+Température
+[K]
+
+Grandeur
+
+Unité
+
+Expression en unités de
+base
+
+température Celsius
+
+degré Celsius (°C)
+
+K
+T/K – 273,15
+
+conductivité thermique
+
+watt par mètre kelvin
+(W.m-1.K-1)
+
+m⋅kg⋅s-3⋅K-1
+
+résistance thermique surfacique
+
+mètre carré kelvin par
+watt (m².K.W-1)
+
+kg-1⋅s3⋅K
+
+capacité thermique
+
+joule par kelvin (J/K)
+
+m2⋅kg⋅s-2⋅K-1
+
+37
+
+Les unités dérivées
+
+Quantité
+de matière
+[mol]
+Grandeur
+
+Unité
+
+Expression en unités
+de base
+
+Concentration molaire
+
+mole par mètre cube
+
+mol⋅m-3
+
+activité catalytique
+
+katal (kat)
+
+mol⋅s-1
+
+38
+
+Les unités dérivées
+
+Intensité
+lumineuse
+[cd]
+
+Grandeur
+
+Unité
+
+Expression en unités de
+base
+
+flux lumineux
+
+lumen (lm)
+
+cd.sr = m2⋅m-2⋅cd
+
+éclairement lumineux
+
+lux (lx)
+
+lm⋅m-2 = m-2⋅cd sr
+
+39
+
+Règles d’écriture
+
+
+Il y a toujours un espace entre le nombre et
+l’unité.
+
+L = 15 cm
+F = 220 daN
+
+L = 15cm
+F = 220daN
+
+Exception : sauf pour le degré, la minute et la
+seconde d’angle plan (respectivement °, ′ e t ″)
+
+θ = 12°3’4’’
+
+θ = 12 ° 3 ’
+
+
+
+
+
+Cette règle signifie que le symbole °C pour le
+degré Celsius est précédé d’un espace.
+
+T = 24 °C
+
+T = 24°C
+
+
+
+Dans une expression donnée, une seule unité
+doit être utilisée.
+
+L = 15 cm
+
+L = 10 cm 50 mm
+
+
+
+
+
+Exception : sauf pour les valeurs des grandeurs
+« temps » et « angle plan » exprimées au moyen
+d’unités en dehors du SI
+
+Le séparateur décimal peut être un point ou une
+virgule, selon la langue et le contexte
+
+d = 10 min 3 s
+θ = 12°3’
+m = 85,6 kg
+m = 85.6 kg
+
+40
+
+Multiples et sous-multiples décimaux
+Facteur
+
+Nom
+
+Symbole
+
+Facteur
+
+Nom
+
+Symbole
+
+101
+
+déca
+
+da
+
+10−1
+
+déci
+
+d
+
+102
+
+hecto
+
+h
+
+10−2
+
+centi
+
+c
+
+103
+
+kilo
+
+k
+
+10−3
+
+milli
+
+m
+
+106
+
+méga
+
+M
+
+10−6
+
+micro
+
+μ
+
+109
+
+giga
+
+G
+
+10−9
+
+nano
+
+n
+
+1012
+
+téra
+
+T
+
+10−12
+
+pico
+
+p
+
+1015
+
+péta
+
+P
+
+10−15
+
+femto
+
+f
+
+1018
+
+exa
+
+E
+
+10−18
+
+atto
+
+a
+
+1021
+
+zetta
+
+Z
+
+10−21
+
+zepto
+
+z
+
+1024
+
+yotta
+
+Y
+
+10−24
+
+yocto
+
+Y
+
+1027
+
+ronna
+
+R
+
+10−27
+
+ronto
+
+r
+
+1030
+
+quetta
+
+Q
+
+10−30
+
+quecto
+
+q
+
+Nouveautés
+2022 !
+
+Le système international d’unités
+
+41
+
+A ce jour, 3 pays n’ont pas
+adopté le Système
+International d’Unités :
+- USA
+- Libéria
+- Birmanie
+
+Par Authors of BlankMap-World.svg — BlankMap-World.svg de various authors, Domaine public,
+https://commons.wikimedia.org/w/index.php?curid=6268919
+
+42
+
+SOMMAIRE
+
+1.
+
+QU’EST CE QUE LA MÉTROLOGIE ?
+
+2.
+
+HISTORIQUE
+
+3.
+
+LA MESURE
+
+4.
+
+LE SYSTÈME INTERNATIONAL
+D’UNITES
+
+5.
+
+LES ORGANISATIONS
+
+6.
+
+LA CHAINE D’ETALONNAGE
+
+43
+
+Les organisations internationales
+Œuvrer en commun à l’avancée de la science
+Promouvoir le système métrique décimal
+Prend les décisions en matière
+de métrologie et notamment
+concernant le SI
+
+En France : le Laboratoire National
+de Métrologie et Essais (LNE)
+
+Publie le SI et produit l'échelle de temps de référence (UTC)
+
+Assure l’uniformité des mesures dans le monde
+(physiques et chimiques)
+
+L’organisation française
+
+44
+
+
+
+Dans chaque pays un organisme est responsable de la métrologie primaire.
+
+
+
+En France c’est le LNE (Laboratoire National de Métrologie et d’Essais).
+
+
+
+Le LNE fédère au niveau national les laboratoires ci-dessous avec l’appui d’un comité
+de la métrologie (pour orienter les travaux dans les domaines jugés prioritaires).
+
+
+
+
+3 Laboratoires Nationaux de Métrologie :
+
+
+LNE-LNHB / CEA ➔ rayonnements ionisants
+
+
+
+LNE-LCM / LNE & CNAM ➔ le kilogramme, le mètre, la candela et le kelvin
+
+
+
+LNE-SYRTE ➔ SYstèmes de Références Temps-Espace
+
+7 Laboratoires associés
+
+
+LNE-CETIAT (hygrométrie, débitmétrie liquide-eau et anémométrie), LNE-ENSAM (pression dynamique),
+LNE-IRSN (dosimétrie des neutrons), LNE-LADG (débitmétrie gazeuse), LNE-LTFB (temps-Fréquences), LNETRAPIL (débitmétrie des hydrocarbures liquides)
+
+220
+chercheurs
+en
+métrologie
+
+45
+
+Le COFRAC
+
+
+Le COFRAC (Comité Français d’Accréditation), créé en 1994, a une mission de service public :
+s’assurer de la compétence et de l’impartialité des organismes de contrôle.
+
+
+
+Il s’organise autour de 4 sections métiers :
+
+• produits industriels et de services (label rouge, NF, BBC…)
+• entreprise et personnels (diagnostics énergétiques, audits
+qualité ou sécurité…)
+• systèmes de management (ISO 9001, ISO 14001…)
+• déclarations d’émissions de gaz à effet de serre
+
+• Organismes d’inspection = bureaux de contrôle
+(Apave, Socotec…)
+• Métrologie légale
+
+
+
+•
+•
+•
+•
+
+• Laboratoires de biologie médicale
+• Laboratoires d’analyses médico-légale
+
+Le COFRAC est signataire des accords de reconnaissance multilatéraux EA / ILAC / IAF
+➔ reconnaissance mutuelle des certificats dans les pays signataires
+
+Laboratoires d’essais, d’analyse et d’étalonnages,
+comparaisons inter-laboratoires
+Bonnes pratiques d’expérimentation
+Bonnes pratiques de laboratoire
+
+L’accréditation
+
+
+
+
+46
+
+Avantages d’un organisme accrédité COFRAC pour évaluer une conformité :
+
+
+Réduire les risques
+
+
+
+Eviter le coût d’un nouveau contrôle
+
+
+
+Renforcer la confiance des clients
+
+
+
+Limiter les coûts grâce à la reconnaissance internationale
+
+L’accréditation peut être obligatoire (~50% des cas)
+
+
+préalable à l’obtention d’un agrément ou dans le cadre d’une réglementation nationale ou directive
+européenne ➔ santé (laboratoires de biologie médicale), sécurité (organismes de certification de
+produits ou services)
+
+
+
+Délégation des contrôles auparavant effectués par l’état ➔ contrôles techniques véhicules lourds,
+classement des hôtels
+
+
+
+Reconnaissance entre états membres
+
+Accréditation / Certification
+
+47
+
+L’accréditation et la certification sont complémentaires et procèdent de la même méthodologie, mais elles
+n’ont pas les mêmes objectifs ni la même finalité.
+
+
+
+
+
+ACCREDITATION :
+
+
+L’accréditation est une attestation délivrée par une tierce partie à un organisme d’évaluation de la
+conformité. Elle constitue une reconnaissance formelle de la compétence de ce dernier pour réaliser
+des activités spécifiques d’évaluation de la conformité.
+
+
+
+Ex : Accréditation COFRAC d’un organisme de contrôle d’appareils de levage
+
+CERTIFICATION :
+
+
+La certification est une attestation délivrée par une tierce partie relative à des produits, des processus,
+des systèmes ou des personnes.
+
+
+
+Ex : Certification AFAQ suivant la norme ISO 9001
+
+48
+
+SOMMAIRE
+
+1.
+
+QU’EST CE QUE LA MÉTROLOGIE ?
+
+2.
+
+HISTORIQUE
+
+3.
+
+LA MESURE
+
+4.
+
+LE SYSTÈME INTERNATIONAL
+D’UNITES
+
+5.
+
+LES ORGANISATIONS
+
+6.
+
+LA CHAINE D’ETALONNAGE
+
+49
+
+La chaîne d’étalonnage
+
+Etalon national
+
+incertitude augmente
+
+Dispositif de transfert
+Etalon de référence
+Dispositif de transfert
+Etalon de référence
+Dispositif de transfert
+
+Etalon de travail
+
+LNE
+
+Conservation et amélioration des étalons nationaux
+Etalonnage des références des CETA
+
+Centres
+d’Etalonnage
+agréés (CETA)
+Services de
+Métrologie Habilités
+(SMH)
+Entreprise ou service
+
+Labo ou organisme public :
+Délivre les certificats officiels d’étalonnage
+Labo ou organisme accrédité COFRAC :
+Etalonne des étalons de référence et des
+instruments de mesure
+Chaîne d’étalonnage dans
+l’entreprise ou le service
+
+Moyen de mesure
+COFRAC : COmité FRançais d’ACcréditation
+
+La traçabilité
+
+
+50
+
+La traçabilité des étalons de mesure doit être garantie (raccordement à une référence
+établie)
+
+
+Surveillance et qualité d’un produit
+
+
+
+Sécurité et protection des consommateurs
+
+
+
+La chaîne de traçabilité est déclinée pour chacune des unités du SI.
+
+
+
+Avoir la garantie de réaliser une bonne mesure, c’est suivre son instrumentation et ses dérives
+par des étalonnages réguliers. C’est ainsi s’assurer de la traçabilité des mesures réalisées avec
+les étalons de plus haut niveau (national, international).
+
+
+
+Les références disposant des meilleures incertitudes à l’échelle française sont celles délivrées
+par le réseau français de métrologie.
+
+L’étalonnage
+
+
+51
+
+Pour raccorder un instrument de mesure on effectue un étalonnage.
+
+➔ Comparer une mesure (réalisée avec un instrument) à des étalons connus, afin de déterminer
+l’écart de cette mesure par rapport aux étalons.
+
+
+
+
+Etalon : « réalisation de la définition d'une grandeur donnée, avec une valeur déterminée et
+une incertitude de mesure associée, utilisée comme référence »
+
+
+Etalon de masse de 1 kg avec une incertitude-type associée de 3 μg
+
+
+
+Résistance étalon de 100 Ω avec une incertitude-type associée de 1 μΩ
+
+
+
+Solution tampon de référence ayant un pH de 7,072 avec une incertitude-type associée de 0,006
+
+Etalonnage : « opération qui, dans des conditions spécifiées, établit en une première
+étape une relation entre les valeurs et les incertitudes de mesure associées qui sont
+fournies par des étalons et les indications correspondantes avec les incertitudes associées,
+puis utilise en une seconde étape cette information pour établir une relation permettant
+d'obtenir un résultat de mesure à partir d'une indication »
+Toutes les définitions sont issues du Vocabulaire International de Métrologie (VIM) – NF ISO/CEI GUIDE 99 : 08/2011
+
+52
+
+La chaîne d’étalonnage
+
+Etalon national
+
+incertitude augmente
+
+Dispositif de transfert
+Etalon de référence
+Dispositif de transfert
+Etalon de référence
+Dispositif de transfert
+
+Etalon de travail
+
+LNE
+
+Conservation et amélioration des étalons nationaux
+Etalonnage des références des CETA
+
+Centres
+d’Etalonnage
+agréés (CETA)
+Services de
+Métrologie Habilités
+(SMH)
+Entreprise ou service
+
+Labo ou organisme public :
+Délivre les certificats officiels d’étalonnage
+Labo ou organisme accrédité COFRAC :
+Etalonne des étalons de référence et des
+instruments de mesure
+Chaîne d’étalonnage dans
+l’entreprise ou le service
+
+Moyen de mesure
+COFRAC : COmité FRançais d’ACcréditation
+
+L’étalonnage
+
+
+53
+
+Etalon national : « étalon reconnu par une autorité nationale pour servir, dans un état ou une
+économie, comme base à l'attribution de valeurs à d'autres étalons de grandeurs de la même
+nature. »
+
+
+Valable pour les grandeurs de base et les grandeurs dérivées
+
+
+
+Etalon de référence : « étalon conçu pour l'étalonnage d'autres étalons de grandeurs de
+même nature dans une organisation donnée ou en un lieu donné . »
+
+
+
+Dispositif de transfert : « dispositif utilisé comme intermédiaire pour comparer entre eux des
+étalons »
+
+
+
+
+Des étalons peuvent parfois servir de dispositifs de transfert.
+
+Etalon de travail : « étalon qui est utilisé couramment pour étalonner ou contrôler des
+instruments de mesure ou des systèmes de mesure. »
+
+
+Un étalon de travail est habituellement étalonné par rapport à un étalon de référence.
+
+Toutes les définitions sont issues du Vocabulaire International de Métrologie (VIM) – NF ISO/CEI GUIDE 99 : 08/2011
+
+La traçabilité
+
+54
+
+
+
+Chaîne de traçabilité métrologique : « succession d'étalons et d'étalonnages qui est utilisée
+pour relier un résultat de mesure à une référence. »
+
+
+
+Comment faire ?
+
+
+Envoyer votre instrument dans un laboratoire « accrédité » selon la norme ISO17025 (norme
+internationale qui spécifie les exigences générales concernant la compétence des laboratoires
+d'étalonnages et d'essais)
+
+
+
+Etalonner votre instrument à partir d’un étalon dont vous disposez
+
+Toutes les définitions sont issues du Vocabulaire International de Métrologie (VIM) – NF ISO/CEI GUIDE 99 : 08/2011
+
+La vérification
+
+55
+
+
+
+Vérification : « fourniture de preuves tangibles qu'une entité donnée satisfait à des exigences
+spécifiées »
+
+
+
+Les vérifications sont relatives à :
+
+
+Une norme
+
+
+
+Une réglementation
+
+
+
+Des règles internes à l’entreprise
+
+
+
+Ne pas confondre la vérification avec l'étalonnage.
+
+
+
+Le résultat d’une vérification d’un instrument de mesure se traduit par une décision de
+conformité (suivie d’une remise en service) ou de non conformité (suivie d’un ajustage, d’une
+réparation, d’un déclassement ou d’une réforme de l’appareil).
+
+
+
+L’enregistrement de la vérification est appelé constat de vérification.
+
+Toutes les définitions sont issues du Vocabulaire International de Métrologie (VIM) – NF ISO/CEI GUIDE 99 : 08/2011
+
+56
+
+L’ajustage
+
+
+
+L’ajustage permet de rectifier une déviation constatée. C’est une procédure permettant
+d’ajuster l’instrument de mesure pour qu’il corresponde à une référence connue, afin qu’il
+produise des résultats plus précis.
+
+
+
+L’opération d’étalonnage doit être distinguée de celle appelée ajustage.
+
+
+
+Quelques traductions en anglais :
+
+Français
+
+Anglais
+
+mesurage
+
+measurement
+
+mesurande
+
+measurand
+
+étalonnage
+
+calibration
+
+ajustage
+
+gauging
+
+incertitude
+
+uncertainty
+
+
