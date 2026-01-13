@@ -1,0 +1,1139 @@
+Note technique
+
+Page 1/29
+
+Accord :
+
+Ref :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+Direction des énergies
+Institut des sciences et technologies pour une économie circulaire des énergies bas carbone
+Département de recherche sur les procédés et matériaux pour les environnements complexes
+Service d’études et d’intégration des procédés
+
+Conception, réalisation et qualification du prototype du
+système de positionnement relatif multi capteurs
+(SPOC)
+
+Jérémy SEYSSAUD (CEA)
+Vincent CHAPURLAT (IMT Mines Alès)
+Laetitia CAMBON (IMT Mines Alès)
+
+Commissariat à l’énergie atomique et aux énergies alternatives
+DES/ISEC/DPME/SEIP – Centre de Marcoule –bâtiment 208 – BP 17171
+30207 Bagnols-sur-Cèze
+Etablissement public à caractère industriel et commercial
+R.C.S. PARIS B 775 685 019
+
+Note technique
+
+Page 2/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+RESUME/CONCLUSIONS
+
+Ce cahier des charges concerne l’étude et la réalisation d’un prototype de système de positionnement relatif
+multi capteurs (SPOC), appelé à être exploité dans des installations nucléaires.
+Ce système doit permettre de garantir le positionnement de capteurs par rapport à une paroi verticale ou
+horizontale, de manière autonome, continue, précise et sûre. L’objectif est de cartographier de grandes
+surfaces (murs, sols, plafonds), avec des capteurs sensibles aux rayonnements alpha, bêta, gamma. Les
+mesures effectuées permettent ainsi d’établir des protocoles pour la décontamination ou le démantèlement des
+équipements.
+Le système SPOC sera monté sur des porteurs de différentes natures (robotisés ou manuels), qui assureront
+son déplacement le long des surfaces à mesurer. SPOC devra garantir en continu la distance des capteurs
+par rapport à la surface, en fonction des préconisations d’usage de ceux-ci.
+L’interface de contrôle / commande à distance de SPOC est également à développer, en tenant compte autant
+que faire se peut des contraintes de communication dans un milieu sévère.
+Ce travail est conduit sur trois années par les apprentis ingénieurs en mécatronique de l’IMT Mines Alès, en
+appliquant les principes, la méthode, les processus et les outils d’ingénierie système et d’ingénierie des métiers
+de la mécatronique. Il répond donc à l’ensemble des règles et principes imposés à la fois par l’ingénierie
+système et par l’ingénierie des métiers informatique, mécanique, automatique et électronique.
+Les besoins et exigences de la maîtrise d’ouvrage, le CEA, sont présentés et contextualisés en préambule.
+Les livrables attendus sont des prestations intellectuelles et de la fourniture d’équipements. Deux livrables
+essentiels sont attendus : un prototype opérationnel et qualifié et tous les documents nécessaires, issus des
+phases de conception et de réalisation de ce prototype, pour pouvoir entreprendre ensuite la production
+industrielle d’une première série de dix systèmes SPOC.
+
+MOTS CLES
+SPOC, robotique, capteurs, positionnement, qualification, ingénierie système, démantèlement nucléaire
+
+Note technique
+
+Page 3/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+SOMMAIRE
+1
+
+INTRODUCTION ............................................................................................................... 5
+1.1
+
+Contexte .................................................................................................................................................. 5
+
+1.2
+
+Objet ........................................................................................................................................................ 5
+
+1.3
+
+Description du travail demandé ........................................................................................................... 5
+
+1.4
+
+Documents de référence ....................................................................................................................... 6
+
+1.5
+
+Glossaire ................................................................................................................................................. 7
+
+2
+
+GENERALITES SUR LA RADIOACTIVITE ...................................................................... 8
+
+3
+
+CAS D’USAGE ............................................................................................................... 10
+3.1
+
+UDG Pierrelatte .................................................................................................................................... 10
+
+3.2
+
+Bassins STEL ....................................................................................................................................... 16
+
+4
+
+DESCRIPTION DES BESOINS DU SYSTEME SPOC ................................................... 18
+
+5
+
+LIVRABLES ATTENDUS................................................................................................ 22
+
+6
+
+RESPONSABLE PROJET .............................................................................................. 23
+
+7
+
+ANNEXE : EXEMPLES DE CAPTEURS DE MESURE NUCLEAIRE (OU SONDES) ... 24
+
+Note technique
+
+Page 4/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+Liste des figures
+Figure 1 : Zone d’essai UDG de cartographie radiologique .................................................................................. 11
+Figure 2 : Porteur automatisé pour des essais de cartographie UDG .................................................................. 11
+Figure 3 : Photo du système de mesure par spectrométrie bêta avec détecteur EJ200 ...................................... 12
+Figure 4 : A gauche, photo du système de mesure par spectrométrie gamma collimaté avec détecteur NaI dans
+la configuration n°1 ; au centre dans sa configuration n°2 et à gauche détecteur collimaté BEGe ..................... 13
+Figure 5 : Détection de contamination uranium au sol avec le détecteur alpha ZnS(Ag) ..................................... 13
+Figure 6 : Chariot élévateur utilisé pour les mesures aux murs avec le détecteur alpha ZnS(Ag) ....................... 13
+Figure 7 : Plan de coupe d’un détecteur plastique EJ200 de surface sensible 2430 cm² (à gauche) et exemple
+de mise en œuvre in situ avec le détecteur sur son châssis support mobile sur rails (à droite). ......................... 14
+Figure 8 : Exemple de mise en œuvre in situ sur un voile béton d’un détecteur plastique EJ200 ....................... 14
+Figure 9 : Configuration de mesure au sol pour le détecteur NaI(Tl) 3"x3" .......................................................... 15
+Figure 10 : Multi capteurs NaI ............................................................................................................................... 15
+Figure 11 : Sonde de Débit de Dose ST09 ........................................................................................................... 16
+Figure 12 : Vue sous bassin S7 ............................................................................................................................ 17
+Figure 13 : Relevé de cote sous bassin S6 .......................................................................................................... 17
+
+Note technique
+
+Page 5/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+1
+
+INTRODUCTION
+
+1.1 Contexte
+Dans le cadre de ses activités d’investigation et de surveillance en milieux nucléaires, le CEA
+utilise une grande variété de capteurs permettant d’enrichir ses bases de connaissances des
+installations. La bonne exploitation des résultats suppose une connaissance exacte du
+positionnement des capteurs dans l’espace par rapport aux objets mesurés. C’est dans ce
+contexte que le CEA exprime le présent besoin du système de positionnement relatif multicapteurs SPOC.
+1.2 Objet
+Ce cahier des charges présente et structure les besoins et des éléments de contexte
+opérationnel définissant les attentes du CEA. Le projet proposé concerne l’étude préliminaire
+du système SPOC, puis l’étude avancée et la réalisation d’un prototype de SPOC à des fins
+d’évaluation de la solution et de qualification opérationnelle, en suivant les principes et
+méthodes de l’Ingénierie Système. Les livrables, incluant le prototype qualifié et l’engagement
+contractuel ainsi qu’une proposition de décomposition des étapes du projet, sont présentés et
+fixent les points d’avancement clé.
+1.3 Description du travail demandé
+Le travail demandé est la conception, la réalisation et la qualification opérationnelle d’un
+prototype d’un système désigné SPOC. Ce prototype de solution du système SPOC est une «
+tête de série » permettant de démontrer la faisabilité des solutions techniques proposées. Les
+documents techniques associés doivent contenir les éléments pour l’industrialisation et la
+production d’une série de systèmes SPOC. La première série prévue sera de 10 équipements.
+A chaque phase du projet, des outils méthodologiques et techniques d’ingénierie seront mis
+en œuvre et décrits pour les phases :
+1.
+
+De conception préliminaire (APS) en suivant la méthode d’Ingénierie système, allant
+de l’analyse de mission et de l’ingénierie des besoins et des exigences jusqu’à
+l’ingénierie des architectures du système SPOC, la vérification et la validation de
+l’ensemble de la solution proposée ;
+
+2.
+
+De conception détaillée (APD) en respectant et traçant scrupuleusement les résultats
+de la phase de conception préliminaire et en mettant alors en œuvre les méthodes,
+techniques et outils d’ingénierie de métiers (ou de disciplines) concernés. Les besoins
+d’ingénierie métiers ici sont la Mécanique, l’Automatique, l’Informatique et
+l’Électronique ;
+
+Note technique
+
+Page 6/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+3.
+
+De réalisation i.e. fabrication, intégration et paramétrage du prototype de la solution
+issue de la conception détaillée. Cette phase aboutira donc à la qualification
+opérationnelle du système SPOC tel qu’implémenté par le prototype.
+
+IMPORTANT : Il est crucial de noter que chacune des phases précédentes doit faire l’objet
+d’activités 1) de traçabilité de toutes données relatives à chaque étape (exemples : référentiel
+des besoins, référentiel des exigences, CR de revues de projet, justifications, calculs
+intermédiaires, modèles d’architecture de système, etc.) et 2) de Vérification et de Validation
+qui établissent pas à pas les justifications nécessaires pour démontrer la qualité et la rigueur
+des résultats.
+Toutes les activités menées à bien durant ces phases sont réalisées par le maître d’œuvre
+(MOE), c’est-à-dire le contractant (élèves de la formation en mécatronique par apprentissage
+MKX du département PRISM de l’IMT Mines Alès). Ces activités seront menées en
+concertation et en collaboration avec des sous-traitants de la MOE qui sont l’équipe
+d’encadrement pédagogique de ce département et l’équipe de la Plateforme Mécatronique
+(PFM) de l’IMT Mines Alès. Le document [DR-5]] précise les directives établies à cette fin et
+devant être respectées par les élèves. Le maître d’ouvrage (MOA) et client final est le CEA.
+1.4 Documents de référence
+[DR-1]
+
+Le traitement et la décontamination des structures, des sols et des effluents,
+http://www.cea.fr/Documents/monographies/monographie-assainissement-demantelementinstallations-nucleaires-chapitre3.pdf
+
+[DR-2]
+
+Glossaire de l’industrie nucléaire,
+https://www.irsn.fr/FR/connaissances/Glossaire/Pages/Glossaire.aspx
+
+[DR-3]
+
+Règles générales de radioprotection du CEA
+
+[DR-4]
+
+Recueil des déchets Nucléaires
+
+[DR-5]
+
+Projet Fil Rouge MKX - Objectifs, déroulement et attendus
+
+Note technique
+
+Page 7/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+1.5 Glossaire
+Terme / sigle
+
+Définition
+
+APS
+
+Avant-Projet Sommaire
+
+APD
+
+Avant-Projet Détaillé
+
+ASN
+
+Autorité de sûreté nucléaire
+
+CEA
+
+Commissariat à l’énergie Atomique et aux Énergies Alternatives
+
+COTS
+
+Commercial Off-The-Shelf : produit fabriqué en série et disponible dans le
+commerce
+
+HA
+
+Haute Activité
+
+INB
+
+Installation Nucléaire de Base
+
+IP
+IRSN
+IVTVQ
+IS
+PFM
+
+Indice de protection
+Institut de radioprotection et de sûreté nucléaire
+Intégration - Transition - Vérification - Validation - Qualification
+Ingénierie Système
+Plateforme Mécatronique (IMT Mines Alès)
+
+SPOC
+
+Système de POsitionnement relatif multi Capteurs
+
+STEL
+
+Station de traitement des Effluents Liquides
+
+THA
+
+Très Haute Activité
+
+Note technique
+
+Page 8/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+2
+
+GENERALITES SUR LA RADIOACTIVITE
+
+La radioactivité est un phénomène naturel lié à la structure de la matière. Certains atomes
+constituant la matière sont instables et émettent des rayonnements. Ces atomes instables
+(radionucléides) se transforment spontanément en perdant de l’énergie, et reviennent ainsi
+progressivement à un état stable. Ils émettent alors des particules ou des photons, dont le flux
+constitue un rayonnement porteur d’énergie, spécifique du radionucléide qui l’émet.
+Ces rayonnements sont dits ionisants car ils peuvent ioniser la matière en interagissant avec
+elle, c’est-à-dire lui enlever un ou plusieurs électrons. Ces ionisations provoquent des
+modifications physico-chimiques dans le corps humain susceptibles d’entraîner des effets
+néfastes sur la santé. Le pouvoir d’ionisation d’un radionucléide dépend de la nature des
+rayonnements qu’il émet (alpha, bêta, gamma, X, neutronique) et de l’énergie de chacune des
+émissions.
+Un radionucléide peut émettre plusieurs types de rayonnements : alpha, bêta, gamma, X ou
+neutrons.
+
+•
+•
+•
+
+Les rayonnements communiquent leur énergie au milieu qu’ils traversent ;
+Lorsque leur énergie est suffisante (> 10 eV environ), ils produisent des ionisations et
+des excitations des atomes et des molécules du milieu ;
+En choisissant les matériaux qui conviennent, les rayonnements ionisants sont atténués
+et finissent par être arrêtés dans la matière.
+
+Trois unités sont fréquemment utilisées dans le domaine du nucléaire : le becquerel (Bq), le
+gray (Gy) et le sievert (Sv).
+•
+•
+
+•
+
+Le becquerel (Bq) mesure l’activité (nombre de désintégration par seconde) de la
+matière radioactive. Anciennement, l'unité de mesure utilisée était le curie (Ci). Un curie
+(1 Ci) équivaut à 3,7.1010 Bq.
+De son côté, gray (Gy) mesure la dose physiquement « absorbée » par la matière . Elle
+représente l'énergie absorbée par un kilogramme exposé à un rayonnement ionisant
+apportant une énergie d’1 joule : 1 Gy = 1 J/kg. Anciennement, l'unité de mesure utilisée
+était le rad (1 gray = 100 rad).
+Enfin, le sievert (Sv) est l'unité de mesure des doses équivalente et efficace, qui permet
+d’évaluer l’impact du rayonnement sur la matière vivante. Ainsi peut-on comparer l’effet
+
+Note technique
+
+Page 9/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+d’une même dose délivrée par des rayonnements de nature différente à l'organisme
+entier, des organes ou des tissus qui n’ont pas la même sensibilité aux rayonnements.
+Anciennement, l'unité de mesure utilisée était le rem (1 rem = 0,01 Sv).
+
+Les 3 règles de base de radioprotection (principe ALARA : As Low As Reasonably Achievable)
+afin de limiter l’impact des RI sur l’être humain, sont :
+• La distance : s’éloigner de la source de rayonnement.
+• Le temps : minimiser la durée d’exposition.
+• Les écrans : atténuer les rayonnements et limiter les risques de contamination
+corporelle
+Deux types d'exposition aux rayonnements ionisants sont possibles :
+•
+
+•
+
+On parle d’irradiation externe lorsqu’une personne se trouve exposée de l’extérieur par
+les rayonnements ionisants émis par une source radioactive situé dans son voisinage.
+Dans ce cas, l’exposition cesse dès lors que la source de radioactivité est éloignée de
+la personne ou si un écran (blindage par exemple) est interposé entre la personne et la
+source.
+On parle de contamination interne pour une exposition interne aux particules
+radioactives, c’est-à-dire quand des éléments radioactifs ont pénétré à l’intérieur de
+l’organisme. Ceci peut se produire par inhalation des particules radioactives présentes
+dans l’air, par ingestion d’aliments contaminés par des particules radioactives, ou via
+contact direct avec la peau ou une plaie (on parle dans ce cas de « contamination
+externe »). Lors d’une contamination, l’exposition aux particules radioactives se poursuit
+tant que la source est à l’intérieur ou au contact du corps.
+
+Note technique
+
+Page 10/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+3
+
+CAS D’USAGE
+
+Le besoin du système SPOC est directement lié à des problématiques rencontrées sur des
+chantiers d’Assainissement Démantèlement du CEA. Ci-dessous sont présentés deux projets
+pour lesquels SPOC a une utilité et qui ont permis de spécifier le système.
+3.1 UDG Pierrelatte
+Les Usines à Diffusion Gazeuses (UDG), créées en 1960, sont arrivées en fin de vie. Elles ont
+été mises à l’arrêt en 1996 et partiellement démantelées. La surface des locaux (murs, sols et
+plafonds) représente plusieurs centaines de milliers de mètres carrés qu’il convient de
+cartographier à l’aide d’outils industriels, assurant une productivité réaliste pour obtenir
+l’ensemble des cartographies des locaux et ainsi prétendre à un déclassement des
+installations.
+En plus des surfaces remarquables à cartographier, les faibles niveaux d’activité en uranium
+à détecter constituent un défi important, dès lors qu’il s’agit d’établir des cartographies
+exhaustives avec une productivité acceptable (rendement horaire et journalier, dans le respect
+de l’objectif radiologique visé).
+Une première campagne d’essais a été réalisée, ayant pour but de quantifier le temps
+nécessaire à la cartographie complète des installations et de qualifier leur système de
+déplacement et positionnement. Un porteur autonome a été développé, utilisant plusieurs
+types de capteurs nucléaires sensibles aux rayonnements alpha, bêta, gamma. Des zones
+d’essais ont été préparées permettant de réaliser des mesures sur parois verticales et
+horizontales.
+
+Note technique
+
+Page 11/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+Figure 1 : Zone d’essai UDG de cartographie radiologique
+
+Figure 2 : Porteur automatisé pour des essais de cartographie UDG
+
+Les faibles niveaux de radiation à mesurer imposent le rapprochement des capteurs à
+quelques millimètres des surfaces. Une connaissance précise de la distance capteur / surface
+en continu est indispensable afin d’interpréter les données brutes des capteurs.
+Pour la campagne précédente d’essais, malgré la préparation des surfaces en amont , le
+maintien de la consigne de distance entre le capteur et la surface a posé des problèmes. En
+effet, les surfaces à mesurer sont très irrégulières et présentent de nombreuses singularités
+suite aux opérations de démantèlement des structures métalliques de support des procédés.
+
+Note technique
+
+Page 12/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+Par exemple, de nombreux dépassements de métal peuvent atteindre une hauteur de
+plusieurs centimètres et sont régulièrement constatés, comme la présence de nombreuses
+plaques métalliques de protection de 1 cm d'épaisseur. De plus, des perçages ont été effectués
+pour retirer des tuyauteries traversant le plancher où un bouchon de protection en PVC blanc
+a été positionné sur chaque trou. Toutefois, la hauteur des bouchons est inférieure à 1 cm. La
+campagne passée a établi que les contrôles restent possibles pour des défauts de surface
+< 1 cm.
+Sur les murs, il a été relevé la présence de vis et de colliers de serrage, ainsi que des tubes
+IRO non retirés lors des opérations d’assainissement. Les murs ont néanmoins pu être
+caractérisés sur une hauteur de 2,00 m. De ce fait, seule une bande de 5,00 m x 2,00 m (L*H)
+a pu être mesurée afin d’établir les temps nécessaires à la caractérisation. Il a été également
+constaté, sur des bandes de 1,00 m, une variation de la planéité horizontale des murs, de 1
+cm à 3 cm.
+En plus de rendre le traitement des données imprécis, la présence de ces imperfections pose
+des problèmes de sécurité des équipements qui peuvent être endommagés.
+De nombreux autres essais ont été réalisés au moyen de porteurs et capteurs de différentes
+natures comme le montrent les exemples suivants.
+
+Figure 3 : Photo du système de mesure par spectrométrie bêta avec détecteur EJ200
+
+Note technique
+
+Page 13/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+Figure 4 : A gauche, photo du système de mesure par spectrométrie gamma collimaté avec détecteur NaI dans la
+configuration n°1 ; au centre dans sa configuration n°2 et à gauche détecteur collimaté BEGe
+
+Figure 5 : Détection de contamination uranium au sol avec le détecteur alpha ZnS(Ag)
+
+Figure 6 : Chariot élévateur utilisé pour les mesures aux murs avec le détecteur alpha ZnS(Ag)
+
+Note technique
+
+Page 14/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+Figure 7 : Plan de coupe d’un détecteur plastique EJ200 de surface sensible 2430 cm² (à gauche) et exemple de mise en
+œuvre in situ avec le détecteur sur son châssis support mobile sur rails (à droite).
+
+Figure 8 : Exemple de mise en œuvre in situ sur un voile béton d’un détecteur plastique EJ200
+
+Note technique
+
+Page 15/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+Figure 9 : Configuration de mesure au sol pour le détecteur NaI(Tl) 3"x3"
+
+Figure 10 : Multi capteurs NaI
+
+Note technique
+
+Page 16/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+3.2 Bassins STEL
+La Station de Traitement des Effluents Liquides de Marcoule, STEL, a pour but de traiter les
+effluents radioactifs produits sur le site de Marcoule. Sa fonction est d’extraire l’activité
+contenue dans ces effluents et de la conditionner dans une matrice stable, puis d’évacuer les
+effluents décontaminés dans le Rhône. Les bassins S6 et S7 font partie du périmètre de
+l’atelier Réception, Bassins et Stockage (RBES).
+Le bassin S6 est un ancien bassin de recueil des eaux de pluie. Au début des années 80, et
+durant plusieurs mois, les effluents issus de la blanchisserie active (ATL) ont été transférés
+dans le bassin S6. L’exploitation de ce bassin a été arrêtée en 1989.
+Le bassin S7 a reçu tous les effluents pompés dans les bassins réhabilités dans le cadre du
+projet RBES (1980). Durant ces opérations, il a joué le rôle de décanteur et régulièrement, la
+phase liquide (appelée aussi « surnageant ») a été pompée et évacuée dans le réseau de
+traitement de la STEL. Le bassin S7 est à l’arrêt depuis 2004.
+Les bassins S6 et S7 sont des ouvrages de gros volume dont les parois sont constituées de
+béton armé.
+Afin de préparer la vidange et le démantèlement des bassins S6 et S7, une connaissance de
+l’activité radiologique des boues présentes dans les bassins est impérative. Pour ce faire, une
+campagne de mesures est en cours et permettra la création d’un modèle radiologique complet.
+Il est notamment nécessaire de cartographier le dessous des bassins à l’aide de sondes de
+débit de dose et spectrométrie gamma, sonde ST09 (SAFE Technologie), Figure 11. La sonde
+sera déplacée à l’aide d’un porteur robotisé et le maintien de la distance entre celle-ci et le
+dessous du bassin est importante.
+
+Figure 11 : Sonde de Débit de Dose ST09
+
+Note technique
+
+Page 17/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+Figure 12 : Vue sous bassin S7
+
+Lors de l’intervention sur le bassin S6, un relevé de cote entre le sol et le fond du bassin a été
+fait. Toutes ces mesures sont synthétisées dans la Figure 13 ci-dessous. Les données des
+plans ont également été vérifiées. Ce relevé montre une variation de la distance entre le sol et
+le plafond. SPOC devra permettre le maintien d’une distance fixe et le parallélisme entre la
+sonde et le plafond.
+
+Figure 13 : Relevé de cote sous bassin S6
+
+Note technique
+
+Page 18/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+4
+
+DESCRIPTION DES BESOINS DU SYSTEME SPOC
+
+SPOC est un système de positionnement relatif multi-capteurs. Il a pour but de garantir le
+positionnement d’un capteur de mesure nucléaire par rapport à une paroi verticale ou
+horizontale, de manière autonome, précise et sûre.
+SPOC sera déplacé au besoin par un système tiers (porteur) qui pourra être robotisé (robot
+mobile, véhicule, etc.) ou manuel (opérateur avec un chariot ou sur rail). De fait, la mobilité de
+SPOC ne fait pas partie du périmètre du présent cahier des charges. Cependant, la consigne
+de distance entre le capteur de mesure nucléaire et la paroi ou le sol, ainsi que leur
+parallélisme, devront être maintenus pendant les phases de déplacement. L’éclairage de la
+zone de mesure n’est pas nécessaire.
+En cas d’impossibilité de maintien de la consigne (présence d’objets ou d’obstacles par
+exemple), les informations relatives au positionnement du capteur devront être communiquées
+et enregistrées.
+Besoins fonctionnels et opérationnels globaux
+BESOIN. 1:
+
+SPOC porte un capteur de mesure nucléaire dédié à l’évaluation de l’état
+d’une surface verticale (murs) ou horizontale (sols ou plafonds). Les deux
+exemples de chantier décrits plus haut donnent un aperçu des types de
+murs, sols et plafonds devant être évalués. Tous types de capteur peuvent
+être utilisés dans la limite des caractéristiques imposées dans ce référentiel.
+
+BESOIN. 2:
+
+SPOC opère sur différents types de chantiers dont ceux décrits ci-dessus :
+sols, murs verticaux et plafonds (ces surfaces sont caractérisées par une
+planéité de +/-5 degrés / verticale et horizontale)
+
+BESOIN. 3:
+
+SPOC assure en continu et sans perte la communication de toutes les
+informations de positionnement du capteur à une interface utilisateur (IHM),
+sans fil ou filaire.
+
+BESOIN. 4:
+
+SPOC dispose donc d’une interface utilisateur qui pourra être distante.
+
+BESOIN. 5:
+
+SPOC assure le maintien de la distance entre le capteur et la zone à
+mesurer qui peut être ponctuelle, linéaire ou surfacique.
+
+BESOIN. 6:
+
+SPOC est capable de connaître la position absolue de la sonde dans les
+contextes d’intervention cités précédemment.
+
+BESOIN. 7:
+
+SPOC dispose d’algorithmes de calibration automatique pour ajuster les
+mesures en fonction 1) des variations environnementales (ex : changement
+
+Note technique
+
+Page 19/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+de température), 2) du capteur de mesure nucléaire embarqué et 3) du
+porteur, nécessitant de recalibrer les capteurs de positionnement de SPOC.
+BESOIN. 8:
+
+SPOC dispose de plusieurs modes de fonctionnement qui doivent être
+gérés. La liste suivante n’est qu’indicative : Arrêt pour stockage plus ou
+moins longue durée, tests suite à reconfiguration de mode de travail, mode
+de travail vertical, mode de travail horizontal, passage de mode de travail
+vertical à mode de travail horizontal et inverse, mode de fonctionnement
+dédié à la formation des opérateurs ou encore mode de travail en situation
+dégradée en fonction d’événements devant être identifiés et dont les effets
+peuvent être plus ou moins importants (exemples : suite à
+dysfonctionnement capteur, dysfonctionnement d’origine interne de SPOC
+ou dysfonctionnement entraîné par un état de surface à analyser gênant la
+mesure ou de contamination imprévue).
+
+BESOIN. 9:
+
+SPOC nécessite la présence d’un, ou plusieurs si nécessaire, opérateur(s)
+assurant sa mise en œuvre et caractérisés par leurs rôles (contrôle,
+reconfiguration si un mode de changement de travail est requis,
+paramétrage, …), dûment formé(s) et certifié(s) à ces rôles.
+
+BESOIN. 10:
+
+SPOC est adapté pour recevoir physiquement le capteur de mesure
+nucléaire installé et paramétré selon le porteur.
+
+BESOIN. 11:
+
+SPOC est configuré pour travailler selon le mode de travail paramétré par
+l’opérateur, en fonction du capteur de mesure nucléaire et du porteur.
+
+BESOIN. 12:
+
+SPOC doit s’interfacer sur différents porteurs, qu’ils soient robotisés ou
+manuels, en s’adaptant à leurs spécifications.
+
+Besoins de puissance électrique
+BESOIN. 13:
+
+SPOC doit disposer d’un branchement filaire classique avec prise 220V 16A
+
+BESOIN. 14:
+
+Le fonctionnement sur batterie est cependant nécessaire : SPOC dispose
+d’une autonomie minimum de 8 heures en fonctionnement continu.
+
+Besoins poids et encombrement
+BESOIN. 15:
+
+Dimensions hors tout, hors capteur de mesure nucléaire : 50 cm * 50 cm *
+50 cm.
+
+BESOIN. 16:
+
+Conception compacte et légère facilitant le transport et l'installation sur
+différents porteurs, 20 kg maximum, hors capteur de mesure nucléaire.
+
+Note technique
+
+Page 20/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+Besoins liés à la contrainte radiologique (SPOC peut se contaminer en opération. Deux
+besoins essentiels sont formulés pour répondre à la contrainte d’accumulation de
+contamination radiologique)
+BESOIN. 17:
+
+SPOC est intégralement nettoyable et décontaminable grâce à l’utilisation
+de matériaux lisses et l’absence de recoins inaccessibles. L’indice de
+protection (IP) pour les parties sensibles est de 67.
+
+BESOIN. 18:
+
+SPOC sera conçu de manière à minimiser l’impact des rayonnements
+gamma sur son fonctionnement en intervention (écran, maintenance
+préventive, choix des composants, localisation des composants
+sensibles...). Aucune tenue minimale n’est demandée pour les opérateurs
+dans leurs rôles.
+
+Besoins de maintenance
+BESOIN. 19:
+
+La maintenance de SPOC sera compatible avec les conditions d’intervention
+du nucléaire : une paire de gants type Mappa et 2 paires de gants
+chirurgicaux.
+
+BESOIN. 20:
+
+Les pièces de rechange sont accessibles. Le choix est orienté
+préférentiellement sur des pièces COTS (Commercial Off-The-Shelf, i.e.
+matériels et composants disponibles sur catalogue ou existants sur étagère)
+et des modules dont le délai de fabrication et la disponibilité de la matière
+première est inférieure à 2 semaines.
+
+BESOIN. 21:
+
+La maintenance en conditions opérationnelles de SPOC doit être rapide et
+simplifiée ; à cette fin, une approche de conception modulaire (mettant en
+avant des composants les plus indépendants possibles les uns des autres
+et donc aisément interchangeables) est fortement souhaitée.
+
+Contraintes de maîtrise des coûts de fabrication et de possession
+BESOIN. 22:
+
+Le coût des pièces pour la fabrication du prototype attendu de SPOC pour
+la qualification opérationnelle est inférieur à 3 000 € HT. De fait, le matériel
+COTS est choisi préférentiellement.
+
+Besoins de sûreté / sécurité
+BESOIN. 23:
+
+SPOC doit assurer la sûreté et la sécurité de l’utilisateur qui réalise les
+opérations comme de l’ensemble des opérateurs qui évoluent à proximité
+de SPOC.
+
+BESOIN. 24:
+
+Le risque incendie est pris en compte en mettant en place des protections
+et des matériaux à faible charge calorifique.
+
+Note technique
+
+Page 21/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+BESOIN. 25:
+
+Le risque électrique est pris en compte, les normes passives et actives sont
+mises en place.
+
+BESOIN. 26:
+
+Le choix des matériaux est compatible avec les contraintes imposées par
+l’ANDRA et le recyclage des matériaux (voir « Recueil des déchets
+Nucléaires »)
+
+Besoins supplémentaires
+BESOIN. 27:
+
+SPOC doit permettre d’enregistrer et de rejouer des séquences
+automatiques de positionnement.
+
+BESOIN. 28:
+
+SPOC doit assurer la traçabilité automatique de toutes les mesures de
+positionnement et mouvements par référencement unique et enregistrement
+de toutes les données accessibles et utiles (localisation, photo, date, type,
+nature, ....) et les transmettre à l’IHM.
+
+BESOIN. 29:
+
+La consigne de distance ‘surface à mesurer / capteur de mesure nucléaire’
+peut varier de 5 mm à 30 cm.
+
+BESOIN. 30:
+
+La précision de mesure de la distance est de ± 1 mm.
+
+BESOIN. 31:
+
+La précision de mesure du parallélisme est de ± 1 degré.
+
+BESOIN. 1:
+
+SPOC embarque un seul capteur de mesure nucléaire dont les dimensions
+peuvent aller jusqu’à 50 x 50 cm en surface de détection et 40 cm de
+hauteur.
+La masse du capteur de mesure nucléaire est comprise entre quelques
+centaines de grammes et 50 kg (Voir plans d’exemples de capteurs de
+mesure nucléaire en annexe)
+
+BESOIN. 32:
+
+Le fonctionnement de SPOC doit rester stable dans diverses conditions
+environnementales (température : -10 °C à 50 °C, humidité : 10 % à 90 %).
+
+BESOIN. 33:
+
+SPOC doit résister aux interférences électromagnétiques, aux vibrations et
+aux chocs.
+
+BESOIN. 34:
+
+Le temps de montage ou de remplacement d’un capteur de mesure
+nucléaire ou de changement de configuration est inférieur à 30 min.
+
+BESOIN. 35:
+
+L’IHM de contrôle SPOC pourra être installée sur le poste de pilotage du
+porteur s’il existe. Elle devra permettre le paramétrage, le démarrage, la
+calibration, le suivi temps réel et toutes les autres fonctions nécessaires à
+tous les modes de fonctionnement du système.
+
+BESOIN. 36:
+
+SPOC devra être capable de communiquer des informations à d’autres
+systèmes informatiques via les réseaux, en temps réel, telles que les
+
+Note technique
+
+Page 22/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+variables d’état et le positionnement relatif et absolu du capteur de mesure
+nucléaire. De manière générale, il s’agit de toutes les informations utiles à
+l’interprétation des mesures.
+
+5
+
+LIVRABLES ATTENDUS
+
+L’approvisionnement du client comporte deux types de livrables : une prestation intellectuelle
+d’étude et la fourniture d’équipements qualifiés.
+Les livrables attendus sont :
+1) Les documents d’étude de conception;
+2) Les documents de l’IVTV de SPOC;
+3) Un prototype opérationnel de SPOC (TRL 51 - Validation de la technologie en
+environnement représentatif)
+4) La documentation associée au prototype.
+Tous les livrables seront fournis et mis à jour durant les 3 années du projet en fonction de
+l’organisation mise en place par l’équipe pédagogique [DR-5]]. D’autres documents peuvent
+être nécessaires à la conduite d’un tel projet et pourront également être livrés au client.
+Livrables architecture du système
+• Diagramme de contexte
+Description : Schéma représentant le système dans son environnement opérationnel.
+Contenu : Interfaces avec les autres systèmes, flux d'informations, et interactions principales.
+• Architecture fonctionnelle
+Description : Description des principales fonctions du système et de leurs interactions.
+Contenu : Organigramme fonctionnel, descriptions des fonctions, et flux de données.
+• Architecture physique
+Description : Répartition des fonctions sur les composants matériels et logiciels.
+Contenu : Diagrammes de blocs, descriptions des composants, et schémas d'assemblage.
+Livrables conception détaillée
+
+1
+
+http://www.cea.fr/multimedia/Documents/infographies/Defis-du-CEA-infographie-echelle-trl.pdf
+
+Note technique
+
+Page 23/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+• Schémas électroniques et mécaniques
+Description : Plans détaillés des circuits électroniques et des composants mécaniques.
+Contenu : Schémas de câblage, dessins techniques, et spécifications des composants.
+• Modèles 3D et CAO
+Description : Modèles tridimensionnels des pièces et assemblages.
+Contenu : Fichiers de conception assistée par ordinateur (CAO), rendus 3D, et plans
+d'assemblage.
+• Dossier de fabrication
+Description : Ensemble de documents nécessaires pour la fabrication des composants.
+Contenu : Liste des pièces, spécifications des matériaux, procédures de fabrication, et
+contrôles qualité.
+Livrables prototypage
+• Prototype fonctionnel
+Description : Version préliminaire du système permettant de valider les principales fonctions.
+Contenu : Prototype physique ou simulation, documentation de test, et rapports de validation.
+• Plans d’intégration, de vérification et de validation
+Description : Stratégie de test pour valider les performances et la conformité du prototype.
+Contenu : Protocoles de test, critères d'acceptation, et rapport de tests.
+Documentation et support
+• Manuel d'utilisation
+Description : Guide détaillant le fonctionnement et l'utilisation du prototype.
+Contenu : Instructions d'utilisation, maintenance, et dépannage.
+• Dossier de projet
+Description : Ensemble des documents produits tout au long du projet.
+Contenu : Historique des modifications, décisions clés, et rapports d'avancement.
+
+6
+
+RESPONSABLE PROJET
+
+Le CEA (MOA) sera représenté par un expert en mécatronique : Monsieur Jérémy SEYSSAUD
+Jeremy.SEYSSAUD@cea.fr.
+
+Note technique
+
+Page 24/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+7
+
+ANNEXE : EXEMPLES DE CAPTEURS DE MESURE NUCLEAIRE (OU SONDES)
+
+Note technique
+
+Page 25/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+Note technique
+
+Page 26/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+Note technique
+
+Page 27/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+SAFE Technologie ST09
+
+Note technique
+
+Page 28/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+Note technique
+
+Page 29/29
+
+Accord :
+Réf. :
+Date : 10/10/2024
+
+Indice : A
+
+CONCEPTION, REALISATION ET QUALIFICATION
+DU PROTOTYPE DU SYSTEME SPOC
+
+
