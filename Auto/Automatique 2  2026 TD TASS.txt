@@ -1,0 +1,684 @@
+AUTOMATIQUE 2
+TD, Etudes de cas
+Formation par apprentissage Mécatronique
+
+Commande par calculateur
+
+Table des matières
+TD MODELISATION D’UN ASSERVISSEMENT NUMERIQUE ..................................................................... 3
+TD SYNTHESE D’UN CORRECTEUR RS .......................................................................................................... 4
+ETUDES DE CAS .................................................................................................................................................. 6
+1 Unité de broyage : ............................................................................................................................................ 7
+2 Réservoirs......................................................................................................................................................... 7
+3 Système mécanique 1 ....................................................................................................................................... 8
+5 Ballon à air chaud............................................................................................................................................. 8
+6 Positionnement d’un panneau photovoltaïque.................................................................................................. 9
+7 Asservissement de position d’un chariot sur une vis à bille ............................................................................. 9
+8 Mélangeur ...................................................................................................................................................... 10
+9 Enceinte thermique......................................................................................................................................... 10
+10 Contrôle de direction d’un véhicule ............................................................................................................. 11
+11 Suspension magnétique ................................................................................................................................ 11
+12 Bac chauffant ............................................................................................................................................... 12
+13 Système masses ressorts ............................................................................................................................... 12
+Systèmes du second ordre (réponse pseudo-périodique)................................................................................... 13
+
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+2
+
+TD MODELISATION D’UN ASSERVISSEMENT NUMERIQUE
+Synthèse d'un correcteur pour un procédé du second ordre
+Un asservissement de position correspond à la fonction de transfert :
+
+G(p) =
+
+(1 +
+
+)
+
+Avec :
+T = 5s et K = 2,
+La période d’échantillonnage est fixée à Te = 5s.
+1. Calculer la fonction de transfert G(z) et les pôles discrets (A1.A2 = 1).
+2. Déterminer l’erreur de trainage de système par retour unitaire.
+3. On désire obtenir une erreur statique en poursuite nulle.
+a. Proposer un correcteur C(z) qui assure la condition sur l’erreur, qui compense le pôle et zéro
+stable du procédé (|zp| < 1) et Kc le gain du correcteur.
+b. Calculer la fonction de transfert en boucle fermé HBF (z). Discuter la stabilité.
+4. On complète C(z) par la présence d’un zéro qui apportera sa contribution afin de régler la stabilité. Pour
+cela on s’impose HBF(z) se comporte comme un second ordre HBF(z) =
+paramètre un amortissement ξ= 0.5 et une pulsation propre ωn = 0.2rd/s.
+Calculer les paramètres du correcteur et écrire l’expression de la loi de commande.
+
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+3
+
+( )
+
+avec comme
+
+TD SYNTHESE D’UN CORRECTEUR RS
+On s’intéresse à la régulation du débit de sel potassique sur un convoyeur :
+Volet
+
+Trémie
+Sel
+potassique
+
+l
+r
+Moteur
+
++
+
+B
+
+A
+
++
+
+Rouleau peseur
+
+Convoyeur
+
+Mesure
+du débit
+
+y(t)
+
+Actionneur
+u(t)
+
+Schéma de principe de la régulation de débit
+La régulation de débit massique est obtenue par variation de la hauteur l de produit sur le convoyeur. Cette variation
+de hauteur résulte du déplacement d’un volet mu par un actionneur électropneumatique.
+Rayon des rouleaux d’entraînement : r = 0,1 m
+Vitesse du moteur d’entraînement : ω = 20 rd/s
+Hauteur de produit sur la bande transporteuse : 0< l < 0,2 m
+Débit mesuré : y exprimé en volt (V).
+Distance AB =3 m
+Fonction de transfert entre la hauteur de produit sur le tapis en A et la commande de l’actionneur :
+
+L( p )
+k1
+=
+U ( p) 1 + τ. p
+avec k1 = 0,01 m/V et τ = 1s
+F1 ( p) =
+
+Fonction de transfert entre le débit massique mesuré et la hauteur de produit sur le convoyeur en sortie de trémie
+
+F2 ( p) =
+
+Y ( p)
+= k2e−θ p
+L( p)
+
+avec k2=100V/m. Le retard pur correspond au temps qui s'écoule entre l'instant où le débit varie en sortie de trémie
+(point A) et l'instant où cette variation est prise en compte au niveau de la mesure (en B). La valeur du retard pur
+dépend donc de la distance AB et de la vitesse linéaire du convoyeur.
+Cahier des charges de l'asservissement numérique à réaliser :
+Poursuite :
+Lors d'un changement de consigne de débit massique y c en échelon, l'allure de la réponse indicielle doit être celle
+d'un système du second ordre, de coefficient d'amortissement égal à 1, de fréquence de coupure (à -3dB) de 0.1
+Hz. La valeur de consigne constante doit être exactement atteinte.
+Régulation :
+En cas de perturbation constante sur le débit en B, celle ci doit être parfaitement compensée après un régime
+transitoire correspondant à celui d'un système du second ordre, de coefficient d'amortissement égal à 1 et de
+fréquence de coupure (à -3dB) de 0.1 Hz.
+Les caractéristiques des convertisseurs utilisés sont :
+Convertisseur Numérique Analogique : 10 bits avec un bit de signe, tension de référence 10 V.
+(+10V obtenu pour une valeur d'entrée de 511)
+Convertisseur Analogique Numérique : 10 bits dont un bit de signe, tension de référence 10 V
+(code de 511 obtenu pour une valeur d'entrée de + 10 V).
+
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+4
+
+1 Proposer un schéma fonctionnel de commande RS permettant de satisfaire le cahier de charges.
+La suite du problème consiste à calculer les coefficients des polynômes R,S.
+2 Vérifier qu'une période d'échantillonnage Te = 1 seconde n'est pas trop grande pour assurer le contrôle de la
+boucle de régulation.
+3 On donne l'expression H(z) de la fonction de transfert échantillonnée d'un système continu du premier ordre avec
+retard et précédé d'un bloqueur d'ordre zéro :
+Soit F(p) la fonction de transfert du processus du premier ordre avec retard ,
+
+K.e − θ.p
+F(p) =
+(1 + τ.p)
+alors
+
+H ( z) =
+
+z − d .(b1 .z −1 + b2 .z −2 ) ( z − 1)
+=
+z
+1 + a1 .z −1
+
+ΤΖ F (pp) 
+
+
+
+
+avec
+
+Te
+a 1 = −e τ
+−
+
+L − Te
+b1 = K.(1 − e τ )
+
+Te
+L
+b 2 = K.e τ .(e τ − 1)
+−
+
+θ = d.Te + L et 0 < L < Te ; d est un entier.
+Calculer les coefficients de la fonction de transfert échantillonnée Y(z)/U(z).
+4 Poser, sans la résoudre, l'équation que doivent vérifier R(z-1) et S(z-1) pour satisfaire les exigences en régulation.
+Pourquoi S(z -1) doit-il contenir (1-z -1) en facteur ?
+S(z -1) = (1- z -1)(1+s1. z -1 + s2. z -2).
+5 On pose
+R(z-1) = r0 + r1.z-1;
+Ecrire le système d'équations linéaires qui permet de calculer les coefficients des polynômes R(z -1) et S(z -1). En
+combien de temps une perturbation constante apparaissant sur le débit de sortie est-elle compensée à 5% près ?
+(pour un système linéaire du second ordre de coefficient d'amortissement 1: ωc=0.65*ω0 où ωc est la pulsation de
+coupure à 3dB et ω0 la pulsation naturelle du système, le temps de réponse à 5% est tr = 2*π*0.7/ ω0).
+6 Exprimer U(z) en fonction de R(z-1), S(z-1), Y(z), Yc(z). Ecrire sous forme littérale l'algorithme complet de calcul
+de la loi de commande, qui permet à partir des valeurs de yc* et de y* de calculer les valeurs de u*.
+
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+5
+
+ETUDES DE CAS
+Objectifs
+-
+
+Etablir les fonctions de transfert de systèmes continus et de systèmes échantillonnés.
+Analyser la réponse dynamique d’un système linéaire continu invariant
+Etablir un schéma d’asservissement numérique.
+Calculer la loi de commande pour répondre à un cahier des charges, simuler et interpréter
+les résultats.
+
+Travail demandé (vous utiliserez le logiciel Matlab, voir sur CAMPUS le script d’un
+exemple à adapter) :
+I Partie A : Modélisation et analyse du SLCI
+1)
+
+Etablir la ou les fonctions de transfert traduisant les influences de l’entrée et/ou de la
+perturbation sur la sortie du système continu étudié. Qualifier, à partir de la fonction de
+transfert entre l’entrée et la sortie, les caractéristiques dynamiques du système continu
+(stabilité, allure du régime transitoire, gain statique s’il est défini, pôles). Tracer alors les
+réponses impulsionnelles et indicielles ainsi que le diagramme de Bode du système.
+Interpréter les différents tracés en faisant le lien avec les caractéristiques dynamiques
+précédentes.
+
+2)
+
+Donner l’expression permettant de calculer la fonction de transfert du système échantillonné
+en tenant compte des convertisseurs. Donner la fonction de transfert échantillonnée entre
+l’entrée et la sortie du système. Tracer les réponses impulsionnelles et indicielles de ce
+système. Interpréter les réponses obtenues par rapport aux pôles de la fonction de transfert
+échantillonnée. Les réponses sont-elles cohérentes avec celles obtenues au 1) : analyse
+qualitative et quantitative.
+
+II Partie B : Asservissement du SLCI
+3)
+
+Proposer un schéma d’asservissement numérique qui répond aux exigences du cahier des
+charges (à télécharger depuis Campus) en termes d’allure transitoire, de précision, et de
+rapidité. Quelles sont les contraintes à appliquer aux polynômes R et S. Calculer le
+correcteur et vérifier en simulation que les performances attendues sont atteintes. Donner
+l’algorithme de calcul de la commande à appliquer au système.
+
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+6
+
+1 Unité de broyage :
+(1-k1).U
+U
+
++
+
+S1
+
+Y
+k1.U
+
++
+
+B2
+
+S2
+B1
+
++
+
+S3
+
+Entrée du processus : débit massique u(t), sortie : débit massique y(t)
+Une unité de traitement mécanique est constituée de deux broyeurs B et de trois séparateurs de particules S (un
+séparateur trie les particules en deux classes, l'une constituée de grains fins, l'autre de grains grossiers en général
+réorientés dans un broyeur).
+Les variables considérées dans le processus sont les débits matière (kg/mn) en sortie des broyeurs et des
+séparateurs.
+Le débit d'entrée de l'unité est noté U, le débit de sortie est noté Y.
+Modélisation d'un broyeur :
+Si Qe et Qs sont les débits (en kg/mn) entrant et sortant, on admet que Qs(p) / Qe(p) = [1 / (1+ p.T)].
+Modélisation d'un séparateur :
+Le coefficient de séparation k définit le partage du débit entrant Qe en deux débits sortant Qs1 et Qs2 avec:
+Qs1=k.Qe et Qs2=(1-k)*Qe
+On note T1, T2 les constantes de temps des broyeurs B1 et B2 et k1, k2, k3 les différents coefficients des
+séparateurs.
+On prendra par exemple : T1= 5 mn, T2=10 mn, k1=0.1, k2=0.3, k3=0.2, produit des gains des convertisseurs
+CAN, CNA, de l’amplification et du capteur =1.
+
+2 Réservoirs
+w (t)
+
+u (t)
+S2
+S1
+
+h2
+h1
+
+R2
+
+y (t)
+
+R1
+Entrée du processus : débit volumique u(t), perturbation : débit volumique w(t), Sortie : débit volumique y(t).
+Les sections S1, S2 des réservoirs sont différentes.
+Le débit volumique entre deux réservoirs est supposé proportionnel à la différence de hauteur h de liquide dans
+ces deux réservoirs (hypothèse des petites variations autour d’une position d’équilibre) :
+On prendra :
+S1= 1.5 m2, S2=1 m2
+R1=1 sm-2, R2=20 s.m-2
+
+S1dh1/dt = -(h1 - h2)/R1 + u(t)
+
+S2dh2/dt = w(t) – (h2 – h1)/R1 – h2 /R2 ;
+
+Produit des gains des convertisseurs CAN, CNA, de l’amplification et du capteur = 2
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+7
+
+3 Système mécanique 1
+
+4 Système mécanique 2
+
+(Script sur Campus)
+k1
+k1
+
+M1
+f1
+
+M1
+
+x1(t)
+
+F(t)= u(t)
+
+x1(t)=y(t)
+
+k2
+
+f1
+
+k2
+M2
+
+M2
+x2(t)
+
+x2(t)=y(t)
+f2
+
+F(t)= u(t)
+
+Entrée des processus : Force appliquée u(t),
+sortie : déplacement y(t).
+Convertisseurs :
+On donne : M1= 25 kg, M2 =négligeable, k1=k2=0.2 Nm-1, f1=1 Nsm-1, f2=0.1 N.sm-1
+Etude 3 (Système mécanique 1):
+F = M2 d2x2/dt2 + k2(x2 – x1) + f1 d(x2 – x1) /dt
+0 = M1 d2x1/dt2 + k1 x1 + f1.d(x1-x2)/dt + k2(x1 - x2)
+Etude 4 (Système mécanique 2) :
+0 = M2 d2x2/dt2 + k2(x2 – x1) + f2 dx2 /dt
+F = M1 d2x1/dt2 + k1 x1 + f1.dx1/dt + k2(x1 – x2)
+Produit des gains des convertisseurs CAN, CNA, de l’amplification et du capteur = 2.
+
+Temperature
+Τ
+
+5 Ballon à air chaud
+On donne le modèle approché d'un ballon à air chaud :
+1
+θ& = − θ + u
+τ1
+&h& = − 1 h& + σ.θ + 1 w
+τ2
+τ2
+
+Vent
+w
+
+Entrée du processus : u(t), sortie : vitesse de translation v=dh/dt
+h est l'écart d'altitude par rapport à une altitude de référence (sortie du système)
+θ la variation de température dans le ballon
+u est une grandeur proportionnelle à l'apport de chaleur dans le ballon (grandeur de commande)
+w vitesse du vent (perturbation agissant sur le système)
+τ1= 5 ', τ2 =120s deux constantes de temps, σ = 0.2 constante.
+Produit des gains des convertisseurs CAN, CNA, de l’amplification et du capteur = 1.
+
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+8
+
+Variation
+d'altitude
+h
+
+6 Positionnement d’un panneau photovoltaïque
+θm(t), Ωm(t)
+
+10 V
+
+Moteur,
+Jr, fr
+
+u (t)
+
+y (t)
+
+Panneau
+Js,fs
+θ (t), Ω (t)
+Entrée du processus : tension u(t), sorties : déplacement mesurée y(t)
+
+La fonction de transfert [Ωm(p)/U(p)] du moteur d’entraînement et de son électronique de puissance est celle
+d’un système du premier ordre de gain statique 1 et de constante de temps J/f où J est le moment d’inertie total
+ramené à l’arbre moteur, et f le coefficient de frottement supposé visqueux également ramené à l’arbre moteur.
+J = Jr + Js/n2
+f = fr+fs/n2
+Le coefficient de réduction n est de 5.
+On donne : Jr = 0,01 kg.m2, Js = 100 kg.m2, fs =25 Ns/m, fr = 0 Ns/m.
+Pour une rotation de 180 °du panneau, la tension fournie par le potentiomètre varie de 5V.
+Convertisseurs : CNA 10 bits, dynamique 10V
+
+CAN : 12 bits dont 1 de signe, dynamique +/-5V
+
+7 Asservissement de position d’un chariot sur une vis à bille
+
+ym(t)
+
+Codeur
+
+0
+Moteur à
+courant
+continu
+
+y (t)
+M
+
+u(t)
+Entrée du processus : tension u(t), sorties : déplacement du chariot y(t) et angle de rotation du moteur θ(t)
+On rappelle les équations qui régissent le fonctionnement du moteur :
+v(t) = R.i(t) + Ldi/dt + e(t)
+(on négligera l'influence du terme Ldi/dt)
+e(t) = ke.dθ(t)/dt
+(on négligera l'influence du terme f.dθ(t)/dt)
+C(t) =kc.i(t) = J.d2θ(t)/dt2 + f.dθ(t)/dt
+Avec : C couple moteur, f coefficient de frottement visqueux.
+M masse du mobile :
+M = 2 kg
+J moment d’inertie du rotor :
+
+J = 10 –4 kg.m2
+
+kr constante de couple du moteur
+
+kr= 0.5 Nm/A
+
+ke constante de fcem
+
+ke = 0.5 V/rd/s
+
+r résistance d’induit
+
+r=5Ω
+
+L coefficient de self induction
+
+L= 10 mH
+
+n pas de la vis à bille
+
+n = 2 cm /tour
+
+codeur incrémental :
+
+2000 impulsions par tour
+
+Convertisseur :
+
+CNA 10 bits, dynamique 10V
+
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+9
+
+8 Mélangeur
+
+u(t)
+y(t)
+Produit
+concentré
+Eau
+
+0.1
+
+d3y
+d2y
+dy
+du
++
+1.4
++ 3.5
++ 25 y = −0.05
++ 0.5u
+3
+2
+dt
+dt
+dt
+dt
+
+Entrée du processus tension de commande u(t), sortie : tension proportionnelle à la concentration y(t)
+La concentration du mélange est réglée par la position de l’électrovanne.
+La concentration est mesurée par un détecteur optique qui délivre une tension électrique u proportionnelle à la
+concentration.
+Convertisseurs à choisir sachant que la plage d’utilisation du mélangeur correspond à y variant entre -0.5 V et +0.5
+V et que la précision demandée sur la concentration doit être inférieure à 10-3 v. La sortie du CNA est amplifiée
+par un gain de 20.
+Vous avez le choix sur les dynamiques des tensions d’entrée du CAN ou de sortie du CNA : +-5 V, +-10V, +- 1V
+et sur le nombre de bits (dont un bit de signe) des convertisseurs : 8bits, 10bits, 12 bits, 16 bits.
+
+9 Enceinte thermique
+La température intérieure de chacune des enceintes
+(T1 et T2) est considérée comme uniforme. La
+température extérieure T3 est supposée constante.
+Des échanges de chaleur se produisent entre
+enceintes et avec l’extérieur selon les lois suivantes :
+
+T1
++
+
+T2
+
+P
+
+P12 = α 12 (T1 − T2 )
+
+P12
+
+P13 = α 13 (T1 − T3 ) où Pij représente la puissance
+P23 = α 23 (T2 − T3 )
+
+P13
+
+P23
+
+calorifique échangée entre les milieux i et j.
+
+dT1
+= P − P12 − P13
+dt
+dT
+M 2 2 = P12 − P23
+dt
+
+T3
+
+M1
+
+On considère M1 = 87000 J.K-1, M2 = 30700 J.K-1, α12 =100 W.K-1, α13 = 105 W.K-1, α23 =85 W.K-1
+Entrée du processus : puissance de chauffe P(W), sortie : température T2 (°K).
+Produit des gains des convertisseurs CAN, CNA, de l’amplification et du capteur = 1/2.
+
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+10
+
+10 Contrôle de direction d’un véhicule
+G désigne le centre de gravité du véhicule, δ est l’angle d’orientation de la roue avant, α est l’angle que fait le
+vecteur vitesse avec l’axe de la voiture, θ est l’angle de l’axe du véhicule avec l’axe x. V0 est la vitesse de la roue
+arrière.
+On considère un déplacement du véhicule à vitesse V0 (90 km/h) selon l’axe des x (θ≈0). Le développement limité
+
+au premier ordre du système d’équation de ce modèle autour du point de fonctionnement (dx/dt=cste,
+y=cste, δ=θ=0) permet d’écrire la fonction de transfert en p entre l’angle δ d’orientation de la roue avant et l’écart
+y du véhicule par rapport à l’axe de la route (l’axe des x).
+dx
+= V0
+dt
+dy
+a
+= V0 (θ + δ )
+dt
+b
+dθ
+δ
+= V0
+dt
+b
+On souhaite, autour de ce point de fonctionnement, piloter par ordinateur l’écart y de ce véhicule par rapport à la
+trajectoire. Pour cela on dispose de cartes de conversion numérique analogique et analogique numérique. Les
+convertisseurs sont des convertisseurs 10 bits et ont une dynamique de ±10V. Vous trouverez les valeurs a et b sur
+internet pour le véhicule de votre choix.
+
+11 Suspension magnétique
+V est la tension appliquée au circuit électrique et I le courant électrique.
+Les valeurs numériques sont: m = 0,01kg, g = 9,8 m/sec2, L = 0,01H, R = 0,8 Ohm, K=0,01 S.I.
+
+d 2H
+KI 2
+m 2 = mg −
+H
+dt
+dI
+L
+= V − RI
+dt
+H
+
+[1]
+
+On considère l’équilibre du système pour lequel : I=I0=3A, V=V0,
+H=H0. On considère alors des petites variations autour de cet
+équilibre : I=I0 + i, V=V0+u, H=H0+h. Par développement limité
+au premier ordre de l’expression [1] on peut écrire.
+
+2 * KI 0
+d 2 h KI 02
+m. 2 = 2 h −
+i
+H0
+dt
+H0
+On souhaite piloter la position de la sphère en imposant le courant i.
+Le produit des gains des convertisseurs CNA et CAN est égal à 2.
+
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+11
+
+[2]
+
+12 Bac chauffant
+
+On considère le système constitué d'un bac chauffant alimenté par un débit volumique Qe0 supposé constant. La
+puissance de chauffe fournie au bac est notée PU. Le débit volumique de sortie du réservoir est noté Qs0.
+Etudier les variations θ de température du liquide en fonction des variations pu de puissance de chauffe autour
+du point de fonctionnement défini par :
+Qe0 = Qs0= 20 l/mn Ts0= 50°C H0 = 600 mm PU0 = 20 kW
+Te = 20 °C, S = 0,2m2
+
+dH
+= Q e − Qs
+dt
+Q s = ϕ (H) = α H
+
+S
+
+cS
+
+d(Ts H)
+= cTe Q e − cTs Qs + Pu
+dt
+
+On souhaite piloter la température par ordinateur autour de ce point de fonctionnement. Le produit des gains des
+convertisseurs CNA et CAN est égal à 1.
+
+13 Système masses ressorts
+
+Soit le SLCI d’entrée u(t) (force appliquée à la masse M2) et de sortie q1(t) (position de la masse M1). On donne
+les équations différentielles du système :
+u(t)=M2d2q2/dt2 +k2(q2 - q1)
+0=M1d2q1/dt2 + k1q1 + k2(q1 - q2)
+Avec M1= 1kg, M2=2 kg, k1=5Ncm-1, k2=2Ncm-1
+Le produit des gains des convertisseurs CNA et CAN est égal à 0.5
+
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+12
+
+Systèmes du second ordre (réponse pseudo-périodique)
+(Cours Automatique Tome 2, Maurice Rivoire, Jean-Louis Ferrier, Eyrolles)
+
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+13
+
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+14
+
+Automatique 2 –TD, Etude de cas – IMT Mines Alès – 2024
+
+15
+
+Commande par calculateur
+
+17
+
+
